@@ -1,0 +1,1001 @@
+﻿year,partij,naam_donateur,totaal_bedrag,aantal_donaties,adres,ubo,neveninstelling
+2023,BBB,Trigona Dairy Trade,50000.0,1,"Luijnhorststraat 16 a, 6941 RD Didam",,CDA Businessclub
+2023,BBB,VDE Holding BV,10000.0,1,"Langewijk 328, 7701 AP Dedemsvaart",,CDA Businessclub
+2023,BVNL,Chipshol 2000 B.V.,50000.0,1,"Boeingavenue 250 , 1119 PZ Schiphol-Rijk",,CDA Businessclub
+2023,BVNL,Horeca Beheer B.V,10000.0,1,"Leenderbos 48, 1447 TV Purmerend",,CDA Businessclub
+2023,BVNL,Sjopperdepop BV,25000.0,1,"Palletweg 32, 2031 DB Haarlem",,CDA Businessclub
+2023,BVNL,Stichting Dona,25000.0,1,"Boeingavenue 250, 1119 PZ Schiphol-Rijk",,CDA Businessclub
+2023,BVNL,W.R. van Haga,10000.0,1,Haarlem,,CDA Businessclub
+2023,BVNL,Wizard Ventures BV,20000.0,2,"Rondehoep 52 A, 1191 KM Ouderkerk aan de Amstel",,CDA Businessclub
+2023,CDA,E. Venghaus,10000.0,1,Leidschendam,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,CDA,H.O.C.R. Ruding,10000.0,1,Den Haag,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,CDA,Keurvorst B.V.,50000.0,1,"P.O. box 150, 3700 AD Zeist",,CDA Businessclub
+2023,CU,H.T. Dake,39666.0,2,Lochem,,CDA Businessclub
+2023,D66,A. Mulder,10000.0,1,Schoten (België),,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,A. van Marwijk Kooy,15000.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,F. Lavooy,10000.0,1,Rotterdam,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,J. Baak,10000.0,1,Soest,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,J. Backer,10000.0,1,Den Haag,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,J. Winter,10000.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,M. Witteveen,50000.0,2,Den Haag,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,Persimmons BV,50000.0,2,"Nieuwe Gracht 45, 2011 ND Haarlem",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,R. Defares,100000.0,2,Den Haag,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,R. de Jong,10500.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,S. van der Heijden,100000.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,Stichting The Dreamery Foundation,100000.0,1,"Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,D66,W. Sijthoff,10000.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,FvD,Beyuna B.V.,10000.0,1,"Paasheuvelweg 26, 1105 BJ Amsterdam",,CDA Businessclub
+2023,FvD,Chipshol 2000 BV,48400.0,1,"Boeingavenue 250, 1119PZ Schiphol-Rijk",,CDA Businessclub
+2023,FvD,CodeGuild B.V.,10000.0,1,"Johan Huizingalaan 763a, 1066 VH Amsterdam",,CDA Businessclub
+2023,FvD,De Nederlandse Investeringsmaatschappij B.V.,10000.0,1,"Molenstraat 33, 7921 KL Zuidwolde",,CDA Businessclub
+2023,FvD,F. Richartz,100000.0,2,Nijmegen,,CDA Businessclub
+2023,FvD,Lambda Furtherance BV,20000.0,1,"Landgoed De Wittenburg 1, 2244 BV Wassenaar",,CDA Businessclub
+2023,FvD,Mega Management B.V.,50000.0,1,"Boeing Avenue 250, 1119 PZ Schiphol-Rijk",,CDA Businessclub
+2023,FvD,Op de Mast B.V.,12500.0,1,"Zijldijk 24B, 2352 AB Leiderdorp",,CDA Businessclub
+2023,FvD,Ozephius Group B.V.,15000.0,1,"Simon Stevinstraat 1, 3261 MG Oud-Beijerland",,CDA Businessclub
+2023,FvD,Piegretia B.V.,15000.0,1,"Oostvoornelaan 26, 2554 BH Den Haag",,CDA Businessclub
+2023,FvD,"SalesFlo, h.o.d.n. Goodbye BigTech",10000.0,1,"Marialaan 2, 6576 BJ Ooij",,CDA Businessclub
+2023,FvD,Sensemakers BV,50000.0,1,"Achterwerf 305, 1367 DD Almere",,CDA Businessclub
+2023,FvD,Verwarmings Techniek Ede B.V.,10000.0,1,"Hoefweg 12, 6717 LS Ede",,CDA Businessclub
+2023,GL,Stichting The Dreamery Foundation,20000.0,1,"Hof van Zevenbergen 1A,  5211 HB 's Hertogenbosch",,CDA Businessclub
+2023,PVV,Piegretia B.V.,15000.0,1,Oostvoornelaan 26 2554 BH Den Haag,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,PvdA,A.E.M. Mutsaers - p/a notariskantoor Nielsen,68535.22,1,"Zuiderpark 22, 9724 AH Groningen",,CDA Businessclub
+2023,PvdA,H. Luyks,10000.0,1,Soest,,CDA Businessclub
+2023,PvdA,J.C.H. Bakker,25000.0,1,Bentveld,,CDA Businessclub
+2023,PvdA,Stichting The Dreamery Foundation,20000.0,1,"Hof van Zevenbergen 1A,  5211 HB 's Hertogenbosch",,CDA Businessclub
+2023,PvdD,C. Teunissen,17175.84,1,Den Haag,,CDA Businessclub
+2023,PvdD,E. Ouwehand,16540.0,1,Den Haag,,CDA Businessclub
+2023,PvdD,J. Luijendijk,13478.43,1,Almere,,CDA Businessclub
+2023,SGP,Bincx B.V.,10000.0,1,"De Bonkelaar 7, 3774 SB Kootwijkerbroek",,CDA Businessclub
+2023,SGP,Montagebedrijf Hardeman van Harten B.V.,16300.0,1,"Lage Veldweg 10, 6741 JL Lunteren",,CDA Businessclub
+2023,SP,L.G. van den Bergh en E.F.A. van Buitenen,43275.0,2,Utrecht,,CDA Businessclub
+2023,VVD,All Safe Management,28000.0,1,"Chocoladeweg 6, 1381 DA Weesp",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,B. Sleeman,22000.0,1,Laren,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Bestuurdersvereniging van de VVD,30000.0,1,"Postbus 30836, 2500 GV Den Haag",,
+2023,VVD,Boels Group,50000.0,1,"Dr. Nolensstraat 140, 6136 GV Sittard",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Built to Build Vastgoed B.V.,50000.0,1,"Magistratenlaan 62, 5223 MD Den Bosch",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,E.A. Nijkerk,100000.0,2,Wassenaar,,
+2023,VVD,Focus on Impact,50000.0,1,"Parklaan 48, 5613 BG Eindhoven",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Godefridus van Hees Fonds,15000.0,1,"Eikenlaan 22, 4356 HE Oostkapelle",,
+2023,VVD,H. van Hoof,30000.0,2,’s-Hertogenbosch,,
+2023,VVD,H.W.M. van der Wallen,50000.0,1,Cromvoirt,,
+2023,VVD,J. Carli,50000.0,1,Noordeloos,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,J. Dobber,50000.0,1,Bloemendaal,,
+2023,VVD,K. Bekkering,22000.0,1,Hilversum,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,K.J. van Uchelen,22000.0,1,Hilversum,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Karo B.V.,50000.0,1,"Keizersveld 53d, 4803 AP Venray",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,KiMi B.V.,100000.0,1,"Hoenderstraat 119, 5801 CJ Venray",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Lin Bun B.V.,75000.0,1,"Watercipresstraat 11, 1326 CM  Almere",,
+2023,VVD,Loo Investments I B.V.,15000.0,1,"Loolaan 83, 7314 AH Apeldoorn",,
+2023,VVD,M&A Boekhoorn B.V.,50000.0,1,"Postbus 126, 3910 AC Rhenen",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Molinsart Holding B.V.,50000.0,1,"Sweelincklaan 18, 3055 WT Rotterdam",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Navara Group B.V.,13000.0,1,"Hoofdstraat 244, 3972 LK Driebergen-Rijsenburg",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Prowinko Nederland B.V.,25000.0,1,"Bella Donna 2, 1181 RM Amstelveen",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,R. Thielen,50000.0,1,Monaco,,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,R.M. Moos,100000.0,1,Hoofddorp,,
+2023,VVD,Rapid Logistics B.V.,17485.0,1,"Incheonweg 7-13, 1437 ED Rozenburg",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,SCP Management,100000.0,1,"Postbus 340, 5060 AH Oisterwijk",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Smits & Smits B.V.,50000.0,1,"Steenstraat 70, 5831 JH Boxmeer",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Steflo B.V.,50000.0,1,"Stadionplein 16, 1076 CM Amsterdam",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Steurstaete B.V.,50000.0,1,"Industrieweg 19, 4731 SB Oudenbosch",,
+2023,VVD,Van Deursen Beheer B.V.,50000.0,1,"Heer en Beekstraat 5, 5242 AC Rosmalen",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Van den Tweel Groep,53000.0,1,"Frieswijkstraat 70, 3862 BM Nijkerk",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Verwelius Holding B.V,50000.0,1,"Energieweg 2, 1271 ED Huizen",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Watoessi B.V.,50000.0,1,"Dijsselhofplantsoen 12, 1077 BL Amsterdam",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,VVD,Wetzels B.V.,10000.0,1,"Coba Pulskensdreef 11, 4904 WB Oosterhout",,
+2023,VVD,Yip Holding,50000.0,1,"Dam 3-7, 1012 JS Amsterdam",,Stichting Ondersteuning VVD Tweede Kamer-verkiezing (SOV)
+2023,Volt,A.D. Mulder,20000.0,2,Schoten (België),,CDA Businessclub
+2023,Volt,Aquaviento B.V.,15323.0,1,"Noorderven 61, 1504 AL Zaandam",,CDA Businessclub
+2023,Volt,Direct Voltage Holding B.V.,10000.0,1,"De Muzen 26, 1431 XP Aalsmeer",,CDA Businessclub
+2023,Volt,M.M.M. Dreesmann,15000.0,1,Amsterdam,,CDA Businessclub
+2023,Volt,Ribbink Van den Hoek Familie Stichting,10000.0,1,"Bernard Zweerskade 1, 1077 TX Amsterdam",,CDA Businessclub
+2023,Volt,Stichting Shuksan,20000.0,1,"Noorderven 61, 1504 AL Zaandam",,CDA Businessclub
+2023,Volt,V.M. Swinkels,10000.0,1,Amsterdam,,CDA Businessclub
+2023,Volt,Van Goethem Internet Ventures B.V.,25000.0,1,"Amstel 93, 1018 EL Amsterdam",,CDA Businessclub
+2023,Volt,Van den Hoff Beheer B.V.,10000.0,1,"Kerckeboschlaan 39, 3708 XH Zeist",,CDA Businessclub
+2024,BBB,E.G. Grijssen,1700.0,1,Lettele,,Mr. Hans van Mierlo Stichting
+2024,BBB,J.C.J. Beemsterboer,1000.0,1,Tuitjenhorn,,Mr. Hans van Mierlo Stichting
+2024,BBB,Loeters de Geer B.V.,1000.0,1,"Luijnhorststraat 16, 6941 RD Didam",R Loeters,Mr. Hans van Mierlo Stichting
+2024,BBB,Lost Boys B.V.,5000.0,1,"Thuil 1, 6365 AC Schinnen",G. Schijlen,Mr. Hans van Mierlo Stichting
+2024,BBB,MFK Holding B.V.,1000.0,1,"Hoofdstraat 12, 6994 AE De Steeg",M.F. Kinran,Mr. Hans van Mierlo Stichting
+2024,BBB,Trigona Dairy Trade B.V.,35000.0,1,"Luijnhorststraat 16, 6941 RD Didam",R Loeters,Mr. Hans van Mierlo Stichting
+2024,BVNL,Dutch Dairymen Board,1670.0,1,"Birstum 13, 8494 MZ Nes",J.S. van KeimpemaH. de Zwaan,Wetenschappelijk Bureau Da Vinci
+2024,BVNL,Flofeet Holding B.V.,5000.0,1,"Reest 36, 5032 EP Tilburg",E. Timmersmans,Bestuurdersvereniging ChristenUnie
+2024,BVNL,Laurens Meyer Beheer B.V.,5000.0,1,"Pottenbakkerstraat 30, 4871 EP Etten-Leur",L. Meyer,Bestuurdersvereniging ChristenUnie
+2024,BVNL,R. Berghuis,5000.0,1,Rotterdam,,Bestuurdersvereniging ChristenUnie
+2024,BVNL,V. van den Boomen,1200.0,1,Harmelen,,BVNL International
+2024,BVNL,W. van Haga,11044.0,2,Haarlem,,Bestuurdersvereniging ChristenUnie
+2024,BVNL,W.R. van Haga,1200.0,1,Haarlem,,BVNL International
+2024,CDA,A. Meerstadt,2500.0,1,Bussum,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,A.J. de Geus,2400.0,1,Utrecht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,A.J. van Dijke,1650.0,1,Sint-Annaland,,Stichting CDA Business Club
+2024,CDA,A.J. van Rijn,1000.0,1,Amsterdam,,Mr. Hans van Mierlo Stichting
+2024,CDA,A.L.M. Nelissen,2500.0,1,Den Bosch,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,A.L.M. van der Sanden,1550.0,1,Eindhoven,,Stichting CDA Business Club
+2024,CDA,A.M. Everaars,1650.0,1,Barneveld,,Stichting CDA Business Club
+2024,CDA,A.Th.M. van der Laan,5000.0,2,Holten,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,B. Spandaw,1550.0,1,Roden,,Stichting CDA Business Club
+2024,CDA,B.J. van der Vegte,1550.0,1,Wassenaar,,Stichting CDA Business Club
+2024,CDA,B.S. v.d. Klis,1000.0,1,Delft,,Mr. Hans van Mierlo Stichting
+2024,CDA,C. Links,2500.0,1,Maarssen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,C.C. Kerkhof,1000.0,1,Roosendaal,,Mr. Hans van Mierlo Stichting
+2024,CDA,C.G. Driessen,1550.0,1,Budel,,Stichting CDA Business Club
+2024,CDA,C.H.C.W. Baelemans,2150.0,1,Berkel Enschot,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,C.M. Hommersom,1650.0,1,Echteld,,Stichting CDA Business Club
+2024,CDA,C.M. Verkade,1550.0,1,Gouda,,Stichting CDA Business Club
+2024,CDA,C.M. Wortmann,2500.0,1,Zeist,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,Chr. van Roon,2500.0,1,Vlaardingen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,D. Bergman,2500.0,1,Baarn,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,D. Haarsma,1550.0,1,Lemmer,,Stichting CDA Business Club
+2024,CDA,D. Kam,1650.0,1,Wassenaar,,Stichting CDA Business Club
+2024,CDA,D.C. Baron van Wassenaer,2400.0,1,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,D.G. Boswijk,3760.0,1,Kockengen,,Mr. Hans van Mierlo Stichting
+2024,CDA,D.P. Noordhoek,2500.0,1,Gouda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,D.R. Versteeg,1000.0,1,Naarden,,Mr. Hans van Mierlo Stichting
+2024,CDA,E. Gassler,1550.0,1,Den Haag,,Stichting CDA Business Club
+2024,CDA,E. Koehoorn,2150.0,1,Slochteren,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,E. Landeweerd,1000.0,1,Lochem,,Mr. Hans van Mierlo Stichting
+2024,CDA,E. Venghaus,6250.0,4,Leidschendam,,Mr. Hans van Mierlo Stichting
+2024,CDA,E.C. Vedder,3760.0,1,Ruinerwold,,Mr. Hans van Mierlo Stichting
+2024,CDA,E.J. van Duijn,4399.0,1,Wassenaar,,Stichting CDA Business Club
+2024,CDA,E.P. Hendriks,1550.0,1,Leiden,,Stichting CDA Business Club
+2024,CDA,F.H. Oostenbrug,2000.0,2,Haarlem,,Mr. Hans van Mierlo Stichting
+2024,CDA,F.H. de Bruijne,1650.0,1,Vlijmen,,Stichting CDA Business Club
+2024,CDA,F.M. Bakker,1000.0,1,Amsterdam,,Mr. Hans van Mierlo Stichting
+2024,CDA,G. Kaemingk,2750.0,1,Lochem,,Stichting CDA Business Club
+2024,CDA,G. Segeren,1550.0,1,Breda,,Stichting CDA Business Club
+2024,CDA,G. Verburg,2500.0,1,Woerden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,G. Zijerveld,3650.0,2,Ede Gld,,Stichting CDA Business Club
+2024,CDA,G.F.J. Backx,1650.0,1,Joure,,Mr. Hans van Mierlo Stichting
+2024,CDA,G.J. Nabers,1000.0,1,Zwolle,,Mr. Hans van Mierlo Stichting
+2024,CDA,G.P.M. van den Goor,1650.0,1,Den Haag,,Stichting CDA Business Club
+2024,CDA,G.R. Vonk,1550.0,1,Noordwijk ZH,,Stichting CDA Business Club
+2024,CDA,G.W.M. van Odijk,1650.0,1,Bosch en Duin,,Stichting CDA Business Club
+2024,CDA,H. Bontenbal,3760.0,1,Rotterdam,,Mr. Hans van Mierlo Stichting
+2024,CDA,H. Borstlap,2500.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,H. Bracht,1650.0,1,Wassenaar,,Stichting CDA Business Club
+2024,CDA,H. Doornhof,1045.0,1,Bussum,,Mr. Hans van Mierlo Stichting
+2024,CDA,H. Zondag,1650.0,1,Lunteren,,Stichting CDA Business Club
+2024,CDA,H. van de Bijl,1650.0,1,Kesteren,,Stichting CDA Business Club
+2024,CDA,H.B.R. Nauta,10700.06,1,Bolsward,,Mr. Hans van Mierlo Stichting
+2024,CDA,H.E.P. Rademaker,1550.0,1,Vught,,Stichting CDA Business Club
+2024,CDA,H.G.J. Bruins Slot,2250.0,1,Utrecht,,Mr. Hans van Mierlo Stichting
+2024,CDA,H.H. Idzerda,1000.0,1,Bussum,,Mr. Hans van Mierlo Stichting
+2024,CDA,H.H. Meijer,2500.0,1,Sint-Oedenrode,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,H.H.I. de Leeuw,1650.0,1,Waalre,,Stichting CDA Business Club
+2024,CDA,H.O.C.R. Ruding,12500.0,2,Den Haag,,Mr. Hans van Mierlo Stichting
+2024,CDA,H.W. van Dorp,9999.99,2,Zoetermeer,,Stichting CDA Business Club
+2024,CDA,H.W.L. de Lint,1550.0,1,Aerdenhout,,Stichting CDA Business Club
+2024,CDA,I. Lawerman,2500.0,1,Bergen aan Zee,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,I. ter Laak,5000.0,2,Zoetermeer,,Mr. Hans van Mierlo Stichting
+2024,CDA,J. Bakker,1045.0,1,Huizen,,Mr. Hans van Mierlo Stichting
+2024,CDA,J. Beltman,2750.0,1,Houten,,Stichting CDA Business Club
+2024,CDA,J. Pijl,3200.0,2,Zeist,,Stichting CDA Business Club
+2024,CDA,J. den Hartog,1500.0,1,Ochten,,Stichting CDA Business Club
+2024,CDA,J. van Boldrik,1650.0,1,Eindhoven,,Stichting CDA Business Club
+2024,CDA,J. van Oord,1550.0,1,Hendrik-Ido-Ambacht,,Stichting CDA Business Club
+2024,CDA,J. van den Berg,1000.0,1,Utrecht,,Mr. Hans van Mierlo Stichting
+2024,CDA,J.A.M.J. van den Berg,1000.0,1,Utrecht,,Mr. Hans van Mierlo Stichting
+2024,CDA,J.C.A.M. Gielen,2500.0,1,Breda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,J.C.M. Veldhuijzen,1650.0,1,Amsterdam,,Stichting CDA Business Club
+2024,CDA,J.F. van Dijk,1650.0,1,Hilversum,,Stichting CDA Business Club
+2024,CDA,J.F.M. Kruijtzer,2500.0,1,Breda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,J.H.H. Uytewaal,1550.0,1,Houten,,Stichting CDA Business Club
+2024,CDA,J.J.M. Helgers,2500.0,1,Den Bosch,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,J.J.M. Lenaers,1380.0,1,Stramproy,,Mr. Hans van Mierlo Stichting
+2024,CDA,J.M. de Raad,1550.0,1,Noordwijk ZH,,Stichting CDA Business Club
+2024,CDA,J.M.G. Schreijer,3210.0,1,Hengevelde,,Mr. Hans van Mierlo Stichting
+2024,CDA,J.M.H. Brenninkmeijer,1550.0,1,Zuiderwoude,,Stichting CDA Business Club
+2024,CDA,J.M.P. Hermans,1550.0,1,Den Haag,,Stichting CDA Business Club
+2024,CDA,J.S. Berghorst,1550.0,1,Dronten,,Stichting CDA Business Club
+2024,CDA,J.S.J. Hillen,2000.0,1,Hilversum,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,J.T.C. Leliveld,2500.0,1,Nieuwveen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,K. Damen,1550.0,1,Gorinchem,,Stichting CDA Business Club
+2024,CDA,K. Mouissie,1650.0,1,Barneveld,,Stichting CDA Business Club
+2024,CDA,K.J. Evers,1550.0,1,Apeldoorn,,Stichting CDA Business Club
+2024,CDA,K.M.H. Peijs,2400.0,1,Harmelen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,K.S. Visser jr.,2500.0,1,Oud-Beijerland,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,K.W. Slump,1550.0,1,Amstelveen,,Stichting CDA Business Club
+2024,CDA,Keurvorst B.V.,50000.0,1,"Lindenlaan 11, 3707 EN Zeist",G. Keamingk,Stichting CDA Business Club
+2024,CDA,L. Boellaard,1550.0,1,s-Gravenzande,,Stichting CDA Business Club
+2024,CDA,L.C. Brinkman,2500.0,1,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,L.J. van Hooff,3550.0,2,Arnhem,,Stichting CDA Business Club
+2024,CDA,M. Breemhaar,2500.0,1,Dronten,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,M. Sulimma,1550.0,1,Almelo,,Stichting CDA Business Club
+2024,CDA,M. Uphoff,3100.0,2,Noordwijkerhout,,Stichting CDA Business Club
+2024,CDA,M.A.M. Boersma,2500.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,M.J.M. Rooskens,1550.0,1,Horn,,Stichting CDA Business Club
+2024,CDA,M.J.M.T. Keulaerds,2500.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,M.L. Veldhuijzen,2500.0,1,Maarssen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,M.L.A. van Rij,2100.0,1,Amsterdam,,Mr. Hans van Mierlo Stichting
+2024,CDA,M.P.A. Werksma,3500.0,2,Zwolle,,Stichting CDA Business Club
+2024,CDA,M.R. de Boorder,1550.0,1,Amsterdam,,Stichting CDA Business Club
+2024,CDA,M.T.M. van Winden,4650.0,2,Haarlem,,Stichting CDA Business Club
+2024,CDA,Movet Beheer,90000.0,2,"Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht",W.J. van der Wind,Mr. Hans van Mierlo Stichting
+2024,CDA,N.J.J. van Kesteren,5000.0,2,Katwijk,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,O. Lawerman,2500.0,1,Rotterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,P. Arensman,3550.0,2,Den Haag,,Stichting CDA Business Club
+2024,CDA,P. Brandjes,1650.0,1,Katwijk ZH,,Stichting CDA Business Club
+2024,CDA,P.A. Koppert,3550.0,2,Berkel en Rodenrijs,,Stichting CDA Business Club
+2024,CDA,P.A. de Jong,3550.0,2,Zeist,,Stichting CDA Business Club
+2024,CDA,P.A.J.M. Steenkamp,1500.0,1,Moordrecht,,Mr. Hans van Mierlo Stichting
+2024,CDA,P.H. Ruys,1550.0,1,Bloemendaal,,Stichting CDA Business Club
+2024,CDA,P.H. Verseveldt,1650.0,1,Teteringen,,Stichting CDA Business Club
+2024,CDA,P.L. Rietberg,5300.0,2,Zwijndrecht,,Mr. Hans van Mierlo Stichting
+2024,CDA,P.M. Koppert,5000.0,1,s-Gravenzande,,Mr. Hans van Mierlo Stichting
+2024,CDA,P.T.J. Vervoort,1550.0,1,Helmond,,Stichting CDA Business Club
+2024,CDA,R. Goedmakers,4050.0,2,Lanaken (België),,Stichting CDA Business Club
+2024,CDA,R. Willems,2500.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,R. de Bruin,3100.0,2,Rotterdam,,Stichting CDA Business Club
+2024,CDA,R.B.G. van Eerd,1500.0,1,Amsterdam,,Mr. Hans van Mierlo Stichting
+2024,CDA,R.E. van Boxsel,5000.0,1,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,R.E.N. Ploum,3650.0,2,Bergambacht,,Stichting CDA Business Club
+2024,CDA,R.J. van Woerden,1150.0,1,Almere,,Stichting CDA Business Club
+2024,CDA,R.L.H. Reinders,1650.0,1,Aalsmeer,,Stichting CDA Business Club
+2024,CDA,R.W. Meines,1550.0,1,Den Haag,,Stichting CDA Business Club
+2024,CDA,S.J. Meerburg - Van Ingen Schenau,10000.0,1,Havelte,,Mr. Hans van Mierlo Stichting
+2024,CDA,T. Mans,1300.0,1,Leiden,,Stichting CDA Business Club
+2024,CDA,T.B.W. Berendsen,3210.0,2,Breda,,Mr. Hans van Mierlo Stichting
+2024,CDA,T.J. Lont,1000.0,1,Westerland,,Mr. Hans van Mierlo Stichting
+2024,CDA,T.J. van Heerikhuize,3200.0,2,Bloemendaal,,Stichting CDA Business Club
+2024,CDA,T.R.C. de Lange,1550.0,1,Dordrecht,,Stichting CDA Business Club
+2024,CDA,T.W. Rietkerk,1045.0,1,Kampen,,Mr. Hans van Mierlo Stichting
+2024,CDA,V.B. Holtrop,1550.0,1,Follega,,Stichting CDA Business Club
+2024,CDA,V.L.W.A. Heijnen,2100.0,1,Maastricht,,Mr. Hans van Mierlo Stichting
+2024,CDA,W. Kuijpers,1650.0,1,Helmond,,Stichting CDA Business Club
+2024,CDA,W. Sickinghe,3550.0,2,Kraainem (België),,Stichting CDA Business Club
+2024,CDA,W. van der Leegte,1650.0,1,Eindhoven,,Stichting CDA Business Club
+2024,CDA,W.A. Willemstein,2400.0,1,Laren NH,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,W.A.J. van Duin,2500.0,1,Amstelveen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,W.B. Hoekstra,10550.0,3,Bussum,,Mr. Hans van Mierlo Stichting
+2024,CDA,W.F.C. Stevens,2500.0,1,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,W.J. Hoogsteder,1550.0,1,Den Haag,,Stichting CDA Business Club
+2024,CDA,W.J. van der Wind,2500.0,1,Loenen aan de Vecht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,X.A.T. Tilman,2800.0,1,Naarden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CDA,Y.M.C.T. van Rooy,1900.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,CU,A.P. Heidema,1220.18,1,Diepenveen,,Bestuurdersvereniging ChristenUnie
+2024,CU,B en S Groep B.V.,10000.0,1,"Veldstraat 8, 4261 TA Wijk en Aalburg",H.A. Sebens,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,E.P.M. Kalshoven-Jonker,1000.0,1,Rijnsburg,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,Fa. Beeldvoerders,2299.0,1,"Basicweg 15c, 3821 BR Amersfoort",M. Godeke,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,Herwi Kunststof en Metaal bewerking. B.V.,2000.0,1,"Bedrijvenpark Twente Noord 43, 7602 XR Almelo",A. Oudendijk,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,J. Sytsma,1000.0,1,Eindhoven,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,J.W. Tonckens,1000.0,1,Amersfoort,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,Jethro B.V.,9000.0,1,"Koraalrood 161, 2718 SB Zoetermeer",**,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,Lily Holding,2000.0,1,"Wenpad 4, 2685 SJ Poeldijk",W.Voskamp,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,Marku Holding B.V. ,9000.0,1,"Utrechtseweg 174, 3818 ES Amersfoort",P. Mars,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,O. Broos-Bos,85000.0,1,Assen,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,P.M.A. van Oord,2500.0,1,Almere,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,Piet van Veelen Beheer B.V.,2000.0,1,"Anker 29, 3904 PK Veenendaal",P. van Veelen,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,CU,W.A. van Oord-Jansen,5000.0,1,Rijnsburg,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,D66,&Samhoud Nederland B.V.,99525.0,4,"Maliebaan 55, 3581 CE Utrecht",S. Samhoud,Ivo Opstelten Foundation
+2024,D66,A. Aris,2000.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,D66,A. Bolt,1583.0,1,Woubrugge,,Ivo Opstelten Foundation
+2024,D66,A. Hammelburg,2481.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,A. Kohnstamm,1340.0,1,Amstelveen,,Ivo Opstelten Foundation
+2024,D66,A. Rinnooy Kan,1600.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,B. Jeene,1000.0,1,Nijmegen,,Ivo Opstelten Foundation
+2024,D66,C. Pauw-Van Doormalen,5000.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,D66,C. van Beek,2000.0,1,Nijmegen,,Ivo Opstelten Foundation
+2024,D66,D. Bosscher,1000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,D. Huijgers,4000.0,1,Zandvoort,,Ivo Opstelten Foundation
+2024,D66,E. Kuipers,4669.0,1,Epe,,Ivo Opstelten Foundation
+2024,D66,E. Laurijssens van Engelenhoven,1000.0,1,Etten-Leur,,Ivo Opstelten Foundation
+2024,D66,E.J. van der Gaag,1000.0,1,Oldebroek,,Ivo Opstelten Foundation
+2024,D66,F. Belhirch,1000.0,1,Rotterdam,,Ivo Opstelten Foundation
+2024,D66,F. Brenninkmeijer,2000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,F. Duynstee,1500.0,1,Beek,,Ivo Opstelten Foundation
+2024,D66,F. Gräper - Van Koolwijk,1500.0,1,Groningen,,Ivo Opstelten Foundation
+2024,D66,F. Lavooy ,10000.0,1,Rotterdam,,Ivo Opstelten Foundation
+2024,D66,F. Otten,1220.0,1,Waalre,,Ivo Opstelten Foundation
+2024,D66,F. van Beek,6000.0,2,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,F.J.P.N. Hoefnagel,1000.0,1,Wassenaar,,Mr. Hans van Mierlo Stichting
+2024,D66,G. Uslu,3997.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,G.J. Gerbrandy,3735.84,1,Den Haag,,Ivo Opstelten Foundation
+2024,D66,Godefridus van Hees Fonds,16000.0,2,"Hoyledesingel 24, 3054 EK Rotterdam",M.A.R.C. PadbergR.S.A. Post,Ivo Opstelten Foundation
+2024,D66,H. Beerten,5000.0,2,Nijmegen,,Ivo Opstelten Foundation
+2024,D66,H. Eijmberts,1000.0,1,Utrecht,,Ivo Opstelten Foundation
+2024,D66,H. Lohman,6250.0,2,Utrecht,,Ivo Opstelten Foundation
+2024,D66,H. Pijlman,2000.0,1,Groningen,,Ivo Opstelten Foundation
+2024,D66,H. Ubachs,1243.0,1,Best,,Ivo Opstelten Foundation
+2024,D66,H. Vijlbrief,1394.1,1,Woubrugge,,Ivo Opstelten Foundation
+2024,D66,I. Lurvink,5000.0,2,Bussum,,Ivo Opstelten Foundation
+2024,D66,I. Rooderkerk,3666.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,J. Baak,30000.0,2,Soest,,Ivo Opstelten Foundation
+2024,D66,J. Kellermann,3500.0,2,Waverveen,,Ivo Opstelten Foundation
+2024,D66,J. Mutsaerts,2000.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,D66,J. de Boer,1000.0,1,Julianadorp,,Ivo Opstelten Foundation
+2024,D66,J.W. Baud,1500.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,K. Ollongren,6380.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,K. van der Meer,2000.0,2,Leiden,,Ivo Opstelten Foundation
+2024,D66,L.J. Brinkhorst,3000.0,3,Den Haag,,Ivo Opstelten Foundation
+2024,D66,M. Franzel,1155.0,1,Culemborg,,Ivo Opstelten Foundation
+2024,D66,M. Smits,2000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,M. Synhaeve,1066.0,1,Lent,,Ivo Opstelten Foundation
+2024,D66,M. Witteveen,52000.0,2,Den Haag,,Ivo Opstelten Foundation
+2024,D66,O. Michielse,4600.0,2,Nijmegen,,Ivo Opstelten Foundation
+2024,D66,P. Overmars,2000.0,1,Bussum,,Ivo Opstelten Foundation
+2024,D66,P. Schnabel,2000.0,2,Zeist,,Ivo Opstelten Foundation
+2024,D66,P. van der Ploeg,20000.0,2,Den Dolder,,Ivo Opstelten Foundation
+2024,D66,Persimmons BV ,10000.0,1,"Nieuwe Gracht 45, 2011 ND Haarlem",D. Huijgers,Ivo Opstelten Foundation
+2024,D66,R. Defares,100000.0,2,Den Haag,,Ivo Opstelten Foundation
+2024,D66,R. Dijkgraaf,4528.0,4,Roermond,,Ivo Opstelten Foundation
+2024,D66,R. Hooft Graafland,2000.0,1,Bloemendaal,,Ivo Opstelten Foundation
+2024,D66,R. Jetten,1855.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,D66,R. Pechtold,2000.0,1,Rotterdam,,Ivo Opstelten Foundation
+2024,D66,R. van Asten,1200.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,D66,R. van Boxtel,1000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,R. van Essen,1000.0,1,Warmond,,Ivo Opstelten Foundation
+2024,D66,R.C. König,2020.0,1,Deventer,,Ivo Opstelten Foundation
+2024,D66,S. Kaag,4371.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,D66,S. Laseur,5000.0,1,Twisk,,Ivo Opstelten Foundation
+2024,D66,T. Bosklopper,2000.0,1,Oegstgeest,,Ivo Opstelten Foundation
+2024,D66,T. Sloof,1000.0,1,Kekerdom,,Ivo Opstelten Foundation
+2024,D66,W. Knibbeler,2000.0,1,Hilversum,,Ivo Opstelten Foundation
+2024,D66,W. Sijthoff,10000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,D66,W. van den Berg,1934.0,1,Rotterdam,,Ivo Opstelten Foundation
+2024,DENK,S. lmajni (N. lcar),4900.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,FvD,Avaras Management B.V.,1000.0,1,"Baron Sloetkade 257, 7321 ZV Apeldoorn",B. Overdijk,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,B. Kaag,1000.0,1,Rotterdam,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Bedrijfsarts Totaal BV,1000.0,1,"Baarnsche Dijk 4b, 3741 LR Baarn",A. van Walraven,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Beyuna B.V.,2000.0,1,"Paasheuvelweg 26, 1105 BJ Amsterdam",P. GebbinkE. Gebbink,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,C. van der Sande,2000.0,2,Tongeren (België),,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,E. Ratelband,1000.0,1,Oosterbeek,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,E. van der Horst,1000.0,1,Bismark (Duitsland),,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,F. Walravens ,1000.0,1,Hulst,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,F. van Beest,1000.0,1,Zwaanshoek,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,FoamShield Supllies B.V.,1000.0,1,"Gildenweg 2, 8604 BC Emmeloord",A. RosmanS. Shafique,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,G. Proost,1000.0,1,Goor,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,H. Reurslag,1000.0,1,Laren,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,H. van Dalen,1000.0,1,Leiden,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Het Onderdelenhuis De Mare,1000.0,1,"Europaboulevard 18, 1825 SB Alkmaar",E. Molenaar,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Hooten Consultancy BV,1000.0,1,"Muidenkade 11, 3826 CA Amersfoort",R. Hooten,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,J. van den Hurk,1000.0,1,Almere,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,J.J. van Leeuwen,1000.0,1,Wassenaar,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,J.T. Ozephius,1500.0,1,Oostvoorne,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,K. Roestenburg,1000.0,1,Eindhoven,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Lambda Furtherance BV,14000.0,2,"Landgoed De Wittenburg 1, 2244 BV Wassenaar",W. van der Goes,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,M. Roelofs,1250.0,1,Markelo,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,MJ2 Capital BV,5000.0,1,"Leeuwkesdries 6A, 4855 AN Galder",E. van de Meeberg,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,N. Fiene,1000.0,1,Sonov (Tsjechië),,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Promotion4U B.V.,2000.0,1,"Noorwegenweg 36, 7772 TB Hardenberg",C. Meijdam,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,R. Roelofs,1250.0,1,Markelo,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,R. Stikvoort,2500.0,1,Leiden,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Turnkey Property Rentals,1000.0,1,"Lisztlaan 40, 3055 KH Rotterdam",M.C.B. Touw,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,V.O.F. New Vista,1000.0,1,"Ankerweg 7, 8042 EX Zwolle",G. LangiusA. Langius,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,W. Feijth,1000.0,1,Den Dolder,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,W. Krete,1000.0,1,Drunen,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,W. van der Goes,5000.0,1,Chardonne VD (Zwitserland),,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,Wortel Holding B.V.,2000.0,1,"Leenderweg 232, 5644 AC Eindhoven",P. Wortel,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,X. Bolkesteijn,1000.0,1,Zuidwolde,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,FvD,dr. Simons Holding B.V.,2000.0,1,"Kochslaan 13, 6373 GW Landgraaf",A.P. Simons,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,GL,A. Kapteijns,19494.12,12,Den Haag,,
+2024,GL,A. Lahlah,12128.49,9,Tilburg,,
+2024,GL,A. Mahrou,2109.64,1,Helmond,,
+2024,GL,A.A.M. Boomgaars,13955.76,12,Hoorn,,
+2024,GL,A.E. Vos,2396.28,1,Maastricht,,
+2024,GL,A.H. Roelfs,6495.299999999999,5,Zwolle,,
+2024,GL,A.J. Nolles,12498.119999999999,12,Schouwerzijl,,
+2024,GL,A.J.M. Gepkens,1916.77,1,Roosendaal,,
+2024,GL,A.M. 't Hart,12498.119999999999,12,De Bilt,,
+2024,GL,A.M. Blom,2500.0,2,Rotterdam,,
+2024,GL,A.M. North,19235.15,7,Leiden,,
+2024,GL,A.P.A.M. Janssen,16735.68,12,Amersfoort,,
+2024,GL,A.T.L. van den Dam,12498.119999999999,9,Zetten,,
+2024,GL,B. Eickhout,81744.8,4,Utrecht,,
+2024,GL,B. Heller,13955.76,12,Hilversum,,
+2024,GL,B. Potjer,18951.56,12,Den Haag,,
+2024,GL,B.R. Groot Wassink,14620.59,9,Amsterdam,,
+2024,GL,C. Vieira,6993.02,1,Hilversum,,
+2024,GL,C.C. Bouwkamp,16735.68,12,Arnhem,,
+2024,GL,C.F.G.R. Koenraad,13906.630000000001,12,Roosendaal,,
+2024,GL,C.J.M. Dortmans,6977.88,6,Helmond,,
+2024,GL,C.M.H. Daemen,16735.68,12,Lent,,
+2024,GL,D. de Jager,11621.57,4,Amsterdam,,
+2024,GL,D.H. Hirsch,17210.85,13,Amsterdam,,
+2024,GL,D.S. Huizer,16735.68,12,Apeldoorn,,
+2024,GL,D.S. de Jong,15588.72,12,Amsterdam,,
+2024,GL,E. Kostermans,16735.68,12,Tilburg,,
+2024,GL,E. Slagt-Tichelman,16171.32,12,Assen,,
+2024,GL,E. Stellingwerf,15588.72,12,Leeuwarden,,
+2024,GL,E.M. Westerveld,12252.34,1,Nijmegen,,
+2024,GL,F.C. van der Schans,1380.0,1,Bruchem,,
+2024,GL,F.J.R. Faber,12498.119999999999,12,Emmen,,
+2024,GL,F.M. van de Laar,10000.0,1,Amsterdam,,
+2024,GL,F.M.H.P. Houben,8017.099999999999,2,Beuningen Gld,,
+2024,GL,F.W.J. van Vliet,15588.72,12,Delft,,
+2024,GL,G. Chakor,16206.83,12,Groningen,,
+2024,GL,G.J.W. Gabriëls,16171.32,12,Weert,,
+2024,GL,H. Krans,1052.19,1,Zutphen,,
+2024,GL,H. Scholtens,1000.0,1,Eelderwolde,,
+2024,GL,H. Tiemessen,1296.0,1,Wijchen,,
+2024,GL,H.A. Warris,13955.76,12,Oss,,
+2024,GL,H.I. Roijackers,20501.16,13,Den Bosch,,
+2024,GL,H.M.M. Schuttenbeld,7794.36,6,Zwolle,,
+2024,GL,H.M.M. Vermin,16735.68,12,Amsterdam,,
+2024,GL,H.P. van Essen,19301.16,12,Utrecht,,
+2024,GL,J. Bulthuis,4183.92,3,Amersfoort,,
+2024,GL,J. Knol,1200.0,1,Beetsterzwaag,,
+2024,GL,J. Portier,12498.119999999999,12,Oost-Souburg,,
+2024,GL,J. Sargentini,3488.94,3,Amsterdam,,
+2024,GL,J.F. Klaver,16431.0,2,Den Haag,,
+2024,GL,J.G. Smit,3703.48,1,Nieuwerkerk,,
+2024,GL,J.H. Jansen,1065.0,1,Kampen,,
+2024,GL,J.M.C.F. Cornips,1000.0,1,Breda,,
+2024,GL,K. van Sparrentak,88642.04000000001,29,Rotterdam,,
+2024,GL,L. Bromet,16171.32,12,Monnickendam,,
+2024,GL,L. van Hooijdonk,13946.400000000001,10,Utrecht,,
+2024,GL,L.C.J. Stultiens,13476.099999999999,10,Den Haag,,
+2024,GL,L.G.J. Voortman,16735.68,12,Utrecht,,
+2024,GL,L.H.H. Hoogstraten,13955.76,12,Zeist,,
+2024,GL,L.N.M. Blom,1315.8,1,Warmond,,
+2024,GL,M. Dadema,19301.16,12,Heino,,
+2024,GL,M. Klijmij-van der Laan,9303.84,8,Gouda,,
+2024,GL,M. Molema,16243.2,12,Meerstad,,
+2024,GL,M. Schouten,13956.0,12,Nieuwegein,,
+2024,GL,M. Wijnja,16735.68,12,Groningen,,
+2024,GL,M. Wit,12498.119999999999,12,Rijswijk,,
+2024,GL,M. de Nobel,11767.11,1,Breda,,
+2024,GL,M. de Vuyst,2114.16,1,Den Haag,,
+2024,GL,M. van Driel,1271.27,1,Oegstgeest,,
+2024,GL,M.A.J. Smitsmans,12527.880000000001,12,Roermond,,
+2024,GL,M.H. Biljoen,3398.63,1,Rotterdam,,
+2024,GL,M.H.A. Strik,15727.79,12,Dodewaard,,
+2024,GL,M.J.A. Maas,13955.76,12,Rijkevoort,,
+2024,GL,M.J.A. Philippart,1500.0,1,Eindhoven,,
+2024,GL,M.M.E. van Dijk - Baak,1125.0,1,Bodegraven,,
+2024,GL,M.N.A. Mos,9762.480000000001,7,Almere,,
+2024,GL,M.P. Scheele,1000.0,1,De Bilt,,
+2024,GL,M.P.A.G. Pollux,15588.72,12,Venlo,,
+2024,GL,M.T.I. Meijs,9303.84,8,Haarlem,,
+2024,GL,N. Aboyaakoub-Akkouh,16735.68,12,Nijkerk,,
+2024,GL,N.A. van Renssen,5609.51,2,Amsterdam,,
+2024,GL,N.E. Kramers,15588.72,12,Leeuwarden,,
+2024,GL,N.P. Vergunst,16735.68,12,Nijmegen,,
+2024,GL,N.P.L. Raas-Tophoven,1040.13,1,Tholen,,
+2024,GL,P. Bakker,16735.68,12,Bavel,,
+2024,GL,P. Rosenmöller,2800.0,1,Driebergen-Rijsenburg,,
+2024,GL,P. Smeulders,16735.68,12,Arnhem,,
+2024,GL,P.E. Broeksma,16735.68,12,Groningen,,
+2024,GL,P.L.P.S. Hofman-Fransen,12498.119999999999,12,Drempt,,
+2024,GL,P.P. Korzelius,2565.28,1,Huizen,,
+2024,GL,R. Grashoff,16202.880000000001,12,Delft,,
+2024,GL,R. Thijs,16735.68,12,Eindhoven,,
+2024,GL,R.A.H. Berkhout,16735.68,12,Haarlem,,
+2024,GL,R.J.W. White,16171.32,12,Purmerend,,
+2024,GL,R.P.M. Kocken,19301.16,12,Amsterdam,,
+2024,GL,R.T.H. van de Laar,1200.0,1,Zierikzee,,
+2024,GL,S. Kruis,13955.76,12,Lelystad,,
+2024,GL,S. Lammers,16735.68,12,Eindhoven,,
+2024,GL,S. Maatoug,17640.59,13,Leiden,,
+2024,GL,S. Toub,16735.68,12,Eindhoven,,
+2024,GL,S.C. Kröger,16171.32,12,Amsterdam,,
+2024,GL,T. Meliani,19494.12,12,Amsterdam,,
+2024,GL,T. Strik,74208.61,5,Dodewaard,,GroenLinks in de Europese Unie
+2024,GL,T. de Ruijter,1803.72,1,Soest,,
+2024,GL,T.D. Yuksel,1040.13,1,Wageningen,,
+2024,GL,T.K. van Wijnen,1797.0,1,Amstelveen,,
+2024,GL,T.M.T. van der Lee,16171.28,4,Amsterdam,,
+2024,GL,T.Y.M. Tuerlings,1338.87,1,Helmond,,
+2024,GL,W.J.W.A. van der Zanden,12498.119999999999,12,Oosterhout,,
+2024,GL,W.M. Breunesse,14670.96,12,Zaandam,,
+2024,GL,Y. van Delft,16832.72,12,Leiden,,
+2024,GL,Y. van Engelen,1198.14,1,Dordrecht,,
+2024,GL,Z. Ernsting,1083.61,1,Amsterdam,,
+2024,JA21,E. Bakker-Derks,1000.0,1,Groesbeek,,Bestuurdersvereniging ChristenUnie
+2024,JA21,M. Steenman,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,JA21,Stichting Wouter Keller,5000.0,1,"Waterkers 14, 2925 TJ Krimpen aan den Ijssel",W.J. Keller,Bestuurdersvereniging ChristenUnie
+2024,PvdA,A. Aboutaleb,3660.54,3,Rotterdam,,Centrum voor Lokaal Bestuur
+2024,PvdA,A. Beumer,1291.0,1,Overijse,,GroenLinks in de Europese Unie
+2024,PvdA,A. Huisman,2000.0,2,Apeldoorn,,GroenLinks in de Europese Unie
+2024,PvdA,A. Jongerius,3067.0,2,Utrecht,,Centrum voor Lokaal Bestuur
+2024,PvdA,A. Stemerding,1000.0,1,Monnickendam,,GroenLinks in de Europese Unie
+2024,PvdA,A. Wolfsen,1000.0,1,Utrecht,,Centrum voor Lokaal Bestuur
+2024,PvdA,B. Abid,1408.05,1,Amsterdam,,Centrum voor Lokaal Bestuur
+2024,PvdA,B. Olij,1000.0,1,Amsterdam,,GroenLinks in de Europese Unie
+2024,PvdA,B. op de Laak,1000.0,1,Ospel,,Centrum voor Lokaal Bestuur
+2024,PvdA,C. Noom,1000.0,1,Koog aan de Zaan,,Centrum voor Lokaal Bestuur
+2024,PvdA,D. Benschop,2617.2200000000003,2,Den Haag,,GroenLinks in de Europese Unie
+2024,PvdA,D. Luyckx,1000.0,1,Edam,,Centrum voor Lokaal Bestuur
+2024,PvdA,E. Taams,1000.0,1,Oostzaan,,Centrum voor Lokaal Bestuur
+2024,PvdA,E. Wolffensperger,1000.0,1,Groningen,,GroenLinks in de Europese Unie
+2024,PvdA,E. van Oosterhout,4255.64,4,Emmen,,Centrum voor Lokaal Bestuur
+2024,PvdA,F. Catz,1000.0,1,Schoorl,,GroenLinks in de Europese Unie
+2024,PvdA,F. Heemskerk,2000.0,2,Den Haag,,GroenLinks in de Europese Unie
+2024,PvdA,F. Leijnse,1000.0,1,Utrecht,,Centrum voor Lokaal Bestuur
+2024,PvdA,F. Pennings,1000.0,1,Utrecht,,Wierdi Beckmanstichting
+2024,PvdA,F. van der Laan,1000.0,1,Anna Paulowna,,GroenLinks in de Europese Unie
+2024,PvdA,G. Beukema,1500.0,1,Saaksum,,Centrum voor Lokaal Bestuur
+2024,PvdA,G. Isabella,2351.2,1,Schalkwijk,,Centrum voor Lokaal Bestuur
+2024,PvdA,G. Schakel,1000.0,1,Den Haag,,GroenLinks in de Europese Unie
+2024,PvdA,G. Verbeet,1000.0,1,Amsterdam,,GroenLinks in de Europese Unie
+2024,PvdA,H. Bunjes,1500.0,1,Amsterdam,,Centrum voor Lokaal Bestuur
+2024,PvdA,J. Dijsselbloem,1000.0,1,Eindhoven,,Centrum voor Lokaal Bestuur
+2024,PvdA,J. Lambrechtsen,1001.0,1,Utrecht,,GroenLinks in de Europese Unie
+2024,PvdA,J. Nieuwenburg,4015.44,4,Blokker,,Centrum voor Lokaal Bestuur
+2024,PvdA,J. Ritzen,1000.0,1,Bunde,,GroenLinks in de Europese Unie
+2024,PvdA,J. Vos,1000.0,1,Marum,,Centrum voor Lokaal Bestuur
+2024,PvdA,J. de Vries,4015.44,4,Raerd,,Centrum voor Lokaal Bestuur
+2024,PvdA,J. van Montfoort,5810.360000000001,2,Vianen,,Centrum voor Lokaal Bestuur
+2024,PvdA,J. van Schie,1000.0,1,Groningen,,GroenLinks in de Europese Unie
+2024,PvdA,J.C.M. van Eijndhoven,2000.0,2,Den Haag,,Centrum voor Lokaal Bestuur
+2024,PvdA,J.M. van Iperen van Adrichem,3000.0,1,Uden,,Foundation Max van der Stoel
+2024,PvdA,K.C. Koenig,1900.0,1,Amsterdam,,Foundation Max van der Stoel
+2024,PvdA,L. Moote,1000.0,1,Loosdrecht,,Centrum voor Lokaal Bestuur
+2024,PvdA,M. Jager-Woltgens,1000.0,1,Oosterwolde FR,,Centrum voor Lokaal Bestuur
+2024,PvdA,M. Lauxtermann,1059.35,1,Groenekan,,Centrum voor Lokaal Bestuur
+2024,PvdA,M. Peerboom,1000.0,1,Eindhoven,,Wierdi Beckmanstichting
+2024,PvdA,M. de Groot,2000.0,2,Voorburg,,Foundation Max van der Stoel
+2024,PvdA,M.L. Hofstra,1000.0,1,Bosch en Duin,,Wierdi Beckmanstichting
+2024,PvdA,N. Stemerdink,1684.86,1,Voorschoten,,Centrum voor Lokaal Bestuur
+2024,PvdA,P. Depla,4557.96,4,Breda,,Centrum voor Lokaal Bestuur
+2024,PvdA,P. Kuijper,1000.0,1,Amsterdam,,GroenLinks in de Europese Unie
+2024,PvdA,P. Rehwinkel,1003.86,1,Amsterdam,,Centrum voor Lokaal Bestuur
+2024,PvdA,P. Sick,1000.0,1,Amsterdam,,GroenLinks in de Europese Unie
+2024,PvdA,R. Voorhoeve,1000.0,1,Soest,,GroenLinks in de Europese Unie
+2024,PvdA,R. Wybenga,1431.24,1,Rotterdam,,Centrum voor Lokaal Bestuur
+2024,PvdA,S. Depla,1000.0,1,Utrecht,,GroenLinks in de Europese Unie
+2024,PvdA,T. Blom,2500.0,2,Rotterdam,,Centrum voor Lokaal Bestuur
+2024,PvdA,T. Heerts,1000.0,1,Apeldoorn,,Centrum voor Lokaal Bestuur
+2024,PvdA,T. Maas-de Brouwer,1000.0,1,Utrecht,,Centrum voor Lokaal Bestuur
+2024,PvdA,T. van Rij,1000.0,1,Leiden,,Wierdi Beckmanstichting
+2024,PvdA,V. Molkenboer,1000.0,1,Gouda,,Centrum voor Lokaal Bestuur
+2024,PvdA,W. Arink,1000.0,1,Bilthoven,,Centrum voor Lokaal Bestuur
+2024,PvdA,W. Etty,1000.0,1,Amsterdam,,Centrum voor Lokaal Bestuur
+2024,PvdA,W. Potze,1425.66,1,Ter Apel,,Centrum voor Lokaal Bestuur
+2024,PvdA,W. Sinnema,1000.0,1,Sneek,,Centrum voor Lokaal Bestuur
+2024,PvdD,A. Trompper,10000.0,1,Alblasserdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,A. Vlasveld - Baar,1249.0,1,Tilburg,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,A.A.H. Hazekamp,19269.56,9,Etterbeek (België),,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,A.H.K. van Viegen,2399.0,1,Pijnacker,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,C. Teunissen,20357.16,3,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,D.M. de Munnik,21549.76,1,Den Bosch,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,E. Ouwehand,18000.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,E.G.M. Smolders-Bakermans,1050.0,1,Geldrop,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,F. de Gram,1027.26,1,Nijmegen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,F.L.G. Hazewinkel,1000.0,1,Hilversum,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,H. de Wit,17497.0,5,Giessenburg,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,H.G. Smoes p/a Noaber Notarissen,25000.0,1,"Oosteinde 15, 7671 AR Vriezenveen",,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,H.J. Scholten p/a Batenburg Notarissen,7308.52,1,"Spanjaardslaan 7bg, 2012 NR Haarlem",,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,PvdD,I. Kostic,15208.96,2,Hilversum,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,I.F.T. Frencken,7000.0,1,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,I.J. Visseren-Hamakers,1230.08,1,Rotterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,I.M. Haas,1197.02,1,Blaricum,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,J. Luijendijk,13478.43,1,Almere,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,J. van Lammeren,10000.0,9,Amersfoort,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,J. van Noort,1900.0,1,Rijswijk,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,J.C. Lemmens,1000.0,1,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,J.E. Nieuwenhuis,1000.0,1,Deventer,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,J.M. Batteau,1098.82,1,Woudenberg,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,K. de Wrede,8983.76,5,Groningen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,L. Raat,1073.66,1,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,L. de Groot,2000.0,1,Arnhem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,L.A. van der Ham,3000.0,1,Arnhem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,L.M. Delver,1105.1,1,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,M. Mattens,1631.04,1,Zaandijk,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,M. Mebius,25000.0,1,Zwijndrecht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,M. Moulijn,1900.0,1,Beekbergen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,M. Visscher p/a Veenhof Notariaat,2208.1,1,"Oranje Nassaulaan 55, 1075 AK Amsterdam",,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,M. van Schaik,1496.28,1,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,M.F. Pastoor,1000.0,1,Beilen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,N.H.M. Putman,1099.0,1,Rijsbergen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,N.K. Koffeman,8324.16,1,Vierhouten,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,P. Nicolai,3218.4,1,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,R. Bakker,1000.0,1,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,R. Smit,2436.76,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,R. Vonk,1102.0,1,Gouda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,R.N. Barker,23570.760000000002,12,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,T. Hofland p/a St. Veritas Vertegenwoordiging,9811.41,1,"Postbus 9099, 3007 AB Rotterdam",,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,W. van der Steeg,7375.0,1,De Meern,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,PvdD,W.A. Bodewitz,3500.0,1,Vleuten,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SGP,AH lnvestment OG B.V.,20000.0,1,"Seringenstraat 2, 4043 PK Opheusden",A.J. Mauritz,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,AgriTeam MidNed B.V.,4000.0,1,"Frankeneng 17h, 6716 AA Ede",M. RoseboomG.E.J. van Apeldoorn,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,B. Ceelen-Kruisman,1026.5,1,Aalsmeer,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,BRE Capita! B.V.,2500.0,1,"Arkerpoort 2, 3861 PS Nijkerk",W.J. Pleijsier,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Babypark B.V.,6000.0,1,"Batterijenweg 19, 4041 DA Kesteren",F.A. Timmer,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Bene Age Et Ne Respexeris,1000.0,1,"Transportweg 33, 2742 RH Waddinxveen",J. SlingerlandP. van der Lans-TroostG. Boekstein,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Beringhem B.V.,13229.1,1,"Selterskampweg 10, 6721 AT Bennekom",**,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Bomenenzo.nl B.V.,4000.0,1,"Veldstraat 2a, 4033 AK Lienden",J.D. van de Bijl,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Brandsen installatietechniek,1500.0,1,"Anthonie Fokkerstraat 89, 3772 MP Barneveld",J.H.C. Brandsen,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Broekhuis Holding,4000.0,1,"Vanenburgerallee 3, 3882 RH Putten",A.E.F. de KockH.W. RemijnE.W. Remijn,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Bunt Groep B.V.,4750.0,1,"Galileilaan 23d, 6716 BP Ede",W. Bunt,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,C. Verloop,2778.0,1,Uddel,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,C.H. van Wolfswinkel,1050.0,1,Ede,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,C.J.L. de Kruijf Grondverzet  B.V.,1000.0,1,"Broekdijk 11, 4041 CT Kesteren",C.J.L. de Kruijf,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Condor Carpets B.V.,1200.0,1,"Euroweg 3, 8061 SB Hasselt",J. Hoekman,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,DB KeukenGroep,4375.0,1,"Stakenbergweg 50, 8075 RA Elspeet",A.J. van Dijke,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,De Linge besturingstechniek B.V.,1150.0,1,"Bonegraafseweg 2, 6669 MH Dodewaard",P. van Duijn,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,De Oude Duikenburg,4000.0,1,"Voorstraat 30, 4054 MX Echteld",C.W. Speksnijder,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,De Vries en Verburg Bouw B.V.,10000.0,1,"Postbus 59, 2820 AB Stolwijk",J. Verburg,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Degalux International B.V.,4750.0,1,"Koopmansgoed 7-9, 3771 MJ Barneveld",W.J. WijnbergenC. Schotanus,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Driestroomhuis De Horizon,4000.0,1,"Hamsestraat 19, 4043 LE Opheusden",J. van Leersum-Roseboom,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Dugros,1000.0,1,"Koninginneweg 22, 3262 JC Oud-Beijerland",B. Duifhuizen,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Enrico Benetti B.V.,4000.0,1,"Willem Beukelszstraat 13, 3261 LV Oud-Beijerland",C.J. Duifhuizen,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,G. van Beek en Zn,2500.0,1,"Koopmansgoed 8, 3771 MK Barneveld",G. van Beek,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Hanskamp AgroTech B.V.,4000.0,1,"Broekstraat 17, 7009 ZB Doetinchem",H.J. HanskampC. Hanskamp-Versluijs,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,J.H. Menkveld,1526.5,1,Giessenburg,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Jan Konijn Beheer/Advies o.g. B.V.,8150.0,1,"Eerste Stationsstraat 85-87, 2712 HD Zoetermeer",J. Konijn,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Klaproos Tuinen B.V.,4000.0,1,"Kooiweg 1, 3927 EB Renswoude",A.K. KlapT. Klap-Vos,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,L.M. Hoek Holding B.V.,4000.0,1,"Lageweg 15, 2222 AG Katwijk",L.M. Hoek,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Montagebedrijf Hardeman-Van Harten,9000.0,1,"Lage Veldweg 10, 6741 JL Lunteren",P.A.R. van HartenJ. Hardeman,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Moree B.V.,4000.0,1,"Rosmolenweg 1, 3356 LK Papendrecht",P.A. Moree,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,P.C. Ezinga,2000.0,1,Opeinde,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,P.M. Baan,1000.0,1,Rijssen,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Pellegrom koudetechniek,4750.0,1,"Kaalakkerstraat 17, 4181 BZ Waardenburg",T.W.L. Pellegrom - van DijkF.W. Pellegrom,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Pleijsier Bouw Genemuiden B.V.,4375.0,1,"De Blokmat 21, 8281 JH Genemuiden",R.H. Pleijsier,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Pluimers Isolatie,1225.0,1,"Wattstraat 11, 7461 AB Rijssen",J. Pluimers-Pluimers,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Polman bouwbedrijf,4150.0,1,"lndustrieweg 2a, 4041 CR Kesteren",M. PolmanD.J. Polman,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,R&H Drukkerij VOF,4000.0,1,"Matensestraat 62a, 6669 CJ Dodewaard",R. van GesselH. van Gessel-van Tuijl,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,RDM Parts B.V.,2500.0,1,"Spoorstraat  3a, 4054 MA Echteld",J.D. Drost,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,RMU,2150.0,1,"Postbus 900, 3900 AX Veenendaal",E. Spaan,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Rhijnart Keukens,4000.0,1,"Vicuslaan 3, 4041 ZA Kesteren",J.P. van Harberden Beheer B.V.,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Roelof Ploeg Holding B.V.,5000.0,1,"Oosterenderweg 45, 1794 GB Oosterend",R. Ploeg,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,RvB lnfra Harderwijk B.V.,4000.0,1,"Nobelstraat 18, 3846 CG Harderwijk",A.H. HeiermanA.J. MauritzJ.G. Reijersen van Buuren,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Schoenmode Jelier,1000.0,1,"Oranjeplein 21, 3297 CV Puttershoek",J. Jelier,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Schulp Vruchtensappen B.V.,5050.0,1,"Zandpad 76, 3621 NG Breukelen",A. SchulpI. Schulp-Averesch,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Stichting Christian Council International,1000.0,1,"Krooslaan 11, 2411 ZP Bodegraven",H.J. van Schothorst,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,T. Bovenlander,1100.0,1,Den Haag,,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,TMC Zeeland B.V.,4000.0,1,"Marconistraat  13, 4461 HH Goes",A. WitteJ. WitteJ. Witte,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,V-Kam Education,1225.0,1,"Nijverheidstraat 16, 8281 JE Genemuiden",W.J. Beens,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,VOF J D van de Bijl en zn,4000.0,1,"Veldstraat 2a, 4033 AK Lienden",J.D. van de BijlT.G. van de Bijl,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Vallei Accountants B.V.,4000.0,1,"Postbus 1, 3930 ED Woudenberg",F.M. de Leeuw,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Van Leeuwen Auto's ,1150.0,1,"lndustrieweg 2, 4041 CR Kesteren",G. van LeeuwenM. van LeeuwenJ. van Leeuwen,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Van Middendorp Montage B.V.,1750.0,1,"Krollerweg 11, 3774 RG Kootwijkerbroek",J.H. van MiddendorpR. van Es,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Van Mourik Keukens,1150.0,1,"Welysestraat  21, 6669 DH Dodewaard",J. van Mourik,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Van Zetten Eierhandel,4525.0,1,"Ommerenveldseweg 43, 4032 NB Ommeren",R. van Zetten,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Van de Beek Gestuurd Boren B.V.,2375.0,1,"Neerijnense Mark 1, 4182 SB Neerijnen",A. van de Beek,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Van der Bijl & Heierman B.V.,18375.0,1,"Lakemondsestraat 13b, 4043 JC Opheusden",A.H. HeiermanA.J. MauritzJ.G. Reijersen van Buuren,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Van der Nagel Modulaire Bouw,1000.0,1,"Ambon 35, 3772 ZT Barneveld",A. van den NagelM.T. van den Nagel,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Vellekoop-Logistics,1500.0,1,"Postbus 99, 3340 AB Hendrik-Ido-Ambacht",R. Vellekoop,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,W.C. van den Brink Holding B.V.,22580.75,1,"Essenerweg 40, 3774 CC Kootwijkerbroek",W.C. van den Brink,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Westreenen Electra,4000.0,1,"Tolsestraat 12, 4043 KB Opheusden",S. van Westreenen,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SGP,Willem designvloeren,1150.0,1,"Lakemondsestraat 13, 4043 JC te Opheusden",A.W. van Engelenhoven,Wetenschappelijk Bureau Dierenrechten Nicolaas G. Pierson
+2024,SP,A. Theeuwen,11662.97,11,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,A. Vrusch,70475.98000000001,12,Heerlen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,A. de Groot,14436.72,12,Wormerveer,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,A. van Houwelingen,1392.5,1,Gorinchem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. Ermis,1330.86,1,Enkhuizen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. Geerling,1289.65,1,Zwolle,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. Maes,16431.3,10,Breda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. Roovers,12516.800000000001,12,Den Bosch,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. Verweij,7349.299999999999,6,Hilversum,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. van Apeldoorn,40994.96,12,Haarlem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. van Kent,93485.61000000002,12,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,B. van der Voort,2175.9,1,Megen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,C. Ester-Schokker,12343.400000000001,12,Emmen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,C. Offenberg,4450.0,2,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,C. Smeets,2618.08,2,Maastricht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,C. Visscher,12170.24,12,Den Bosch,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,C. Woltjer,6082.62,6,Enschede,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,D. de Leeuw,6161.700000000001,6,Delft,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,E. Dansen,19908.36,13,Gorinchem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,E. Draisma,10142.7,10,Almere,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,E. Eikenaar,36588.840000000004,13,Haren Gn,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,E. Tigchelaar,2118.54,1,Heerenveen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,E. de Vries,18656.16,12,Helmond,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,E. van Kampen,12323.400000000001,12,Alphen aan den Rijn,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,E. van de Baan-Ravestein,12175.24,12,Almere,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,Erven J. Rademaker,3148.0,1,Winkel,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,G. Dikkers,1348.36,1,Tynaarlo,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,G. Elfrink,13524.27,13,Arnhem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,H. Everhard,12165.24,12,Almere,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,H. Ghijsen,1691.28,1,Middelburg,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,H. Kalter,11134.16,8,Delden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,H. Kokke,12511.800000000001,12,Tilburg,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,H. Kruyt,15519.03,9,Amersfoort,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,I. Verdaasdonk,12223.64,12,Breda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Breur,2782.08,2,Veenendaal,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Brouwer,10556.64,8,Wijk bij Duurstede,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Clemens,70864.52,12,Heerlen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Dijk,112158.95999999999,12,Groningen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Haijen,1570.59,1,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Huisman,12185.24,12,Groningen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Velner,12260.16,10,Zoetermeer,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. Visscher,12511.800000000001,12,Eindhoven,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. al Sari,1458.9999999999995,1,Drachten,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. van Dijk,59986.08,12,Utrecht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. van Gelooven,1003.7,1,Maastricht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. van Zon,12189.24,12,Amersfoort,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. van der Horst,6414.4,4,Oisterwijk,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,J. van der Sluis,12723.24,8,Delft,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,K. de Kok,12723.24,12,Deventer,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,K. van Baal,1624.64,1,Zwolle,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,L. Bunk,1944.0,1,Vledder,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,L. Marijnissen,6776.410000000001,2,Oss,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,L. van Aelst,35517.48,11,Gorinchem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,L. van der Ende,4593.69,3,Veendam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Alkaya,22691.07,5,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Boer,1309.04,1,Lelystad,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Broekmeulen,5499.66,3,Sint-Oedenrode,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Dorlas,1024.0,1,Den Haag,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Everling,7599.83,5,Heesch,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Hijink,13225.24,2,Amersfoort,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Kuiper,6366.62,6,Zwartemeer,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. König,12165.24,12,Eindhoven,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Manheim,1319.0,1,Lelystad,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Memiş,4055.08,4,Eindhoven,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. Verschuren,12172.74,12,Breda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. van Caldenberg,26788.85,13,Landgraaf,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,M. van Nispen,103044.89000000001,12,Breda,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,N. Roelen,12165.24,12,Arnhem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,N. Temmink,56735.049999999996,12,Zwolle,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,P. Kwint,58710.09,12,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,P. van Ek,9057.42,9,Enschede,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Alberts,19716.48,12,Amsterdam,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Besse,12165.24,12,Apeldoorn,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Hartmeijer,4241.08,3,Dordrecht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Janssen,43344.100000000006,12,Wassenaar,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Kuin,12531.800000000001,12,Haarlem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Leijten,55248.56,12,Haarlem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Meinema,5290.3,3,Wijk bij Duurstede,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Portier,7427.5599999999995,7,Dordrecht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,R. Ravestein,3041.31,3,Almere,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,S. Beckerman,111184.65,12,Groningen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,S. Biharie,31434.64,10,Apeldoorn,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,S. Blom,11296.45,11,Maastricht,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,S. Dobbe,112510.7,12,Arnhem,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,T. Hendriks,3127.9500000000003,3,Apeldoorn,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,T. Kruiver,12165.24,12,Tilburg,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,T. van Halm,12323.400000000001,12,Leiden,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,W. Hoogervorst,18410.43,13,Enkhuizen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,X. Topma,4177.5,3,Meppel,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,SP,Y. Claessens,3751.6,1,Heerlen,,Stichting Christendemocratische Club voor Fondsenwerving
+2024,VVD,3B Holding B.V.,4450.0,1,"Schiemerik, 5334 NL Velddriel",H. van de Biggelaar,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,A. Jorritsma-Lebbink,1000.0,1,Almere,,Ivo Opstelten Foundation
+2024,VVD,A. Kisteman,1000.0,1,Zwolle,,Ivo Opstelten Foundation
+2024,VVD,A. de Vries,1000.0,1,Leeuwarden,,Ivo Opstelten Foundation
+2024,VVD,A.C.M. Verlinde,3000.0,1,Cromvoirt,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Admin. Kantoor Solidiam,4450.0,1,"Memlingstraat 2, 1077 LR Amsterdam",R. Egger,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Adviesbureau AGS Abraham B.V.,3000.0,1,"Koningsvaren 6, 1391 Al Abcoude",A. Abraham,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Afinius B.V.,3000.0,1,"Overschiestraat 59A, 1062 XD Amsterdam",R. Groenendaal,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Agrlmm B.V.,3000.0,1,"Zijdelweg 3, 1187 ZM Amstelveen",N.J. Immink,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,B. Becker,1000.0,1,Wassenaar,,Ivo Opstelten Foundation
+2024,VVD,B. Smals,1000.0,1,Delft,,Ivo Opstelten Foundation
+2024,VVD,Beheermaatschappij Ommen B.V.,3000.0,1,"Karnemelkstraat 1, 7731 BM Ommen",J. Smit,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Boelaars Holding M.R.M.,3000.0,1,"Mr. H. Enschedéweg 12, 2111 EB Aerdenhout",M. Boelaars,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Bolk Beheer B.V.,3000.0,1,"Beatrix de Rijkweg 1, 7602 PR Almelo",J. Bolk,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,C. Durlacher,2000.0,1,Breukelen,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,C. Nijkerken-de Haan,1000.0,1,Schinveld,,Ivo Opstelten Foundation
+2024,VVD,C. van Oostrom ,3000.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Constar Beheer B.V.,3000.0,1,"Zuiderhavenweg 56, 4004 JJ Tiel",A.B. de Regt,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,D. de Kort,1000.0,1,Veldhoven,,Ivo Opstelten Foundation
+2024,VVD,E. Heinen,1000.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,VVD,E. Schippers,1000.0,1,Baarn,,Ivo Opstelten Foundation
+2024,VVD,E. Wetzels,1000.0,1,Oosterhout,,Ivo Opstelten Foundation
+2024,VVD,E. van der Burg,1000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,VVD,E.A. Nijkerk,100000.0,1,Wassenaar,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,G. van den Herik,3000.0,1,Weesp,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Godefridus van Hees Fonds,36200.0,2,"Eikenlaan 22, 4356 HE Oostkapelle",M.A.R.C. PadbergR.S.A. Post,Foundation Max van der Stoel
+2024,VVD,Graniet Holding B.V.,6000.0,2,"Amerlkahavenweg 2, 1045 AC Amsterdam",B. Bontrup,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,H. Bergmann,1000.0,1,Schiedam,,Ivo Opstelten Foundation
+2024,VVD,H. Bevers,1000.0,1,Leeuwarden,,Ivo Opstelten Foundation
+2024,VVD,H. Neppérus,1000.0,1,Voorschoten,,Foundation Max van der Stoel
+2024,VVD,H. Rahimi,1000.0,1,Weesp,,Ivo Opstelten Foundation
+2024,VVD,H.J. Meijer,1000.0,1,Zwolle,,Ivo Opstelten Foundation
+2024,VVD,H.J. van Bentum B.V.,3000.0,1,"Parellelweg 80, 3931 MT Woudenberg",H. van Bentum B.V.,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,HaWebo management B.V.,3000.0,1,"Stadionweg 54, 1077 SN Amsterdam",H. Boissevain,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Houdstermaatschappij JAV,4000.0,1,"Wanraaij 2, 6673 DN Andelst",J.W. van der Kamp,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,I. Michon-Derkzen,1000.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,VVD,I. Opstelten,1000.0,1,Rotterdam,,Ivo Opstelten Foundation
+2024,VVD,J. Arensman,1000.0,1,Bussum,,Foundation Max van der Stoel
+2024,VVD,J. Bakker Holding,3000.0,1,"De Lairessestraat 107, 1071 NX Amsterdam",J. Bakker,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,J. Dura,4495.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,J. Tielen,1000.0,1,Utrecht,,Ivo Opstelten Foundation
+2024,VVD,J. van Tol,5000.0,1,Aalten,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,J. van den Hil,1000.0,1,Goes,,Ivo Opstelten Foundation
+2024,VVD,J.A. Bruijn,1000.0,1,Wassenaar,,Ivo Opstelten Foundation
+2024,VVD,J.A.J. Vet,3000.0,1,Hilversum,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,J.C. Dekker ,3000.0,1,"Rivierkade 3, 4931 AA Geertruidenberg",J.C. Dekker,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,J.J. Deur,3000.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,J.W. Blokland Holding,4000.0,1,"Vaart 13, 4206 CC Gorinchem",J.W. Blokland,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,JC Holding,4000.0,1,"Europalaan 26, 5232 BC Den Bosch",E. Olders,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,K. Petersen,1000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,VVD,Kuijper Control B.V,3000.0,1,"Dorpsstraat 77, 3632 AS Loenen aan de Vecht",J. Kuijper,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,L. Borst,1000.0,1,Venray,,Foundation Max van der Stoel
+2024,VVD,L.A.G.M. Kateman,1000.0,1,Venray,,Foundation Max van der Stoel
+2024,VVD,Landvast Nederland B.V.,4500.0,1,"Straatweg 244, 3621 BZ Breukelen",M. Rövekamp,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,M. Adriaansens,1000.0,1,Blaricum,,Ivo Opstelten Foundation
+2024,VVD,M. Jansen ,3000.0,1,Bussum,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,M. Kaljouw,1000.0,1,Buurmalsen,,Ivo Opstelten Foundation
+2024,VVD,M. Paul,1000.0,1,Amsterdam,,Ivo Opstelten Foundation
+2024,VVD,M. Rutte,1500.0,1,Den Haag,,Ivo Opstelten Foundation
+2024,VVD,Maarsen Groep Beheer B.V.,3000.0,1,"Buitenveldertselaan 108, 1081 AB Amsterdam",M. Maarsen,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Marwijmo,4000.0,1,"Deltastraat 1, 1078 PB Amsterdam",S. Wurfbain,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Mavet B.V.,3000.0,1,"Hooiweg 15, 5321 JG Hedel",M. Verwoert,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Navara,5000.0,1,"Hoofdstraat 24, 3972 LK Driebergen-Rijsenburg",A. Kamminga,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Nellestein Management B.V.,3000.0,1,"Woudenbergseweg 11, 3953 ME Maarsbergen",F. van Beuningen,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,P. de Groot,1000.0,1,Harderwijk,,Ivo Opstelten Foundation
+2024,VVD,P. van Ballekom,1000.0,1,Lasne (België),,Ivo Opstelten Foundation
+2024,VVD,Publieke Zaken B.V.,3000.0,1,"Lange Houtstraat 15b, 2511 OJ Den Haag",R. Leegte,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Quivado B.V.,4450.0,1,"De Biezen 30-31, 3355 ES Papendrecht",Q. van Dobben,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,R. Brekelmans,1000.0,1,Oisterwijk,,Ivo Opstelten Foundation
+2024,VVD,R. Dral,1000.0,1,Oostzaan,,Ivo Opstelten Foundation
+2024,VVD,R. Kamminga,1000.0,1,Zuidbroek,,Ivo Opstelten Foundation
+2024,VVD,R. Vogels,1000.0,1,Heemstede,,Ivo Opstelten Foundation
+2024,VVD,R.R.D. Donker,1000.0,1,Maartensdijk,,Foundation Max van der Stoel
+2024,VVD,Rijsterborgh Vastgoed B.V.,3000.0,1,"Eleanor Rooseveltlaan 255, 1183 CK Amstelveen",E. Rijsterborgh,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,S. Erkens,1000.0,1,Kerkrade,,Ivo Opstelten Foundation
+2024,VVD,S. Hermans,1000.0,1,Vreeland,,Ivo Opstelten Foundation
+2024,VVD,Stichting Blue Building lnstitute,3000.0,1,"Cronenburg 152, 1081 GN Amsterdam",A. Boot,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,T. Klip-Martin,1000.0,1,Hilvarenbeek,,Ivo Opstelten Foundation
+2024,VVD,T. van Ark,1000.0,1,Rotterdam,,Ivo Opstelten Foundation
+2024,VVD,U. Ellian,1000.0,1,Almere,,Ivo Opstelten Foundation
+2024,VVD,Van de Nieuwegiessen Beheer B.V.,3000.0,1,"Matterhorn 45, 5624 NR Eindhoven",G. van de Nieuwegiessen Beheer B.V.,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Van der Leij Groep,3000.0,1,"Disketteweg 53, 1033 NW Amsterdam",R. van der Leij,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Veerzaak B.V.,3000.0,1,"Buurtweg 15, 2244 AA Wassenaar",J. van de Veer,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Vegtlust B.V.,3000.0,1,"Dorpsstraat 19, 3632 AP Loenen aan de Vecht",B. Ernst,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,W. Meulenkamp,1000.0,1,Ambt Delden,,Ivo Opstelten Foundation
+2024,VVD,W. van Eijk-Nagel,1000.0,1,Weert,,Ivo Opstelten Foundation
+2024,VVD,Wetzels B.V.,3000.0,1,"Coba Pulskensdreef 11, 4904 WB Oosterhout",E. Wetzels,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,VVD,Zadelhoff Beheer B.V.,4450.0,1,"Dijsselhofplantsoen 12, 1077 BL Amsterdam",M. Feilzer,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2024,Volt,A. Dassen,1000.0,1,Eindhoven,,Bestuurdersvereniging ChristenUnie
+2024,Volt,A. Kaaks,1000.0,1,Wassenaar,,Bestuurdersvereniging ChristenUnie
+2024,Volt,A. Koole,1000.0,1,Heemstede,,Bestuurdersvereniging ChristenUnie
+2024,Volt,A. Mischnik,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,A. Prechal,3000.0,1,Utrecht,,Bestuurdersvereniging ChristenUnie
+2024,Volt,A. Strolenberg,3178.0,1,Vorst (België),,Bestuurdersvereniging ChristenUnie
+2024,Volt,Angry Monkey B.V.,1000.0,1,"Floris Versterstraat 11 E, 1058 JL Amsterdam",R. Timmerman,Bestuurdersvereniging ChristenUnie
+2024,Volt,Ayuus B.V./Beheer Zonder Naam B.V.,9000.0,3,"Nieuwe Laanstraat 4, 1211 DB Hilversum",R. Ruijs,Bestuurdersvereniging ChristenUnie
+2024,Volt,B. Breukers,5000.0,2,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,B. Heldring,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,B. Schoonderbeek,1000.0,1,Arnhem,,Bestuurdersvereniging ChristenUnie
+2024,Volt,D. Meerburg,2000.0,2,Utrecht,,Bestuurdersvereniging ChristenUnie
+2024,Volt,D. Niezing,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,E. & A. van der Dussen & Rinnooy Kan,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,E. Huisman,1000.0,1,Rotterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,E. Mekkelholt,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,E. van der Pol,2000.0,2,Den Haag,,Bestuurdersvereniging ChristenUnie
+2024,Volt,F. de Wuffel,1500.0,1,Den Haag,,Bestuurdersvereniging ChristenUnie
+2024,Volt,G. Klok,1000.0,1,Zutphen,,Bestuurdersvereniging ChristenUnie
+2024,Volt,G. Wierda - van Roode,1000.0,1,Heerlen,,Bestuurdersvereniging ChristenUnie
+2024,Volt,G. en M. Vehmeijer,2000.0,2,Breukelen,,Bestuurdersvereniging ChristenUnie
+2024,Volt,G. van Rutten Beheer B.V,10000.0,1,"Gustav Mahlerplein 257, 1082 MS Amsterdam",G. van Rutten,Bestuurdersvereniging ChristenUnie
+2024,Volt,G. van der Baan,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,H. de Jong,1000.0,1,Noordwijk (ZH),,Bestuurdersvereniging ChristenUnie
+2024,Volt,HBJ Investments,2500.0,1,"Delta 1E, 6825 ML Arnhem",H. Buitenhuis,Bestuurdersvereniging ChristenUnie
+2024,Volt,Havenpoort Holding B.V.,50000.0,1,"Zuid-Hollandlaan 7, 2596 AL Den Haag",M. Koopman,Bestuurdersvereniging ChristenUnie
+2024,Volt,Hegro Invest B.V.,1000.0,1,"Dorpsstraat 1, 5261 CJ Vught",F. HetzenauerJ.A.M. Hetzenauer-Groenwoud,Bestuurdersvereniging ChristenUnie
+2024,Volt,I. Peeters,1000.0,1,De Steeg,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. Beer,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. Gordijn,2000.0,1,Amersfoort,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. Hoekstra,1000.0,1,Leiden,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. Hoppenbrouwers,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. Penders,1000.0,1,Maaseik (België),,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. van Dorth tot Medler,1000.0,1,Wassenaar,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. van Eijden,1000.0,1,Reek,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J. van Schouwenberg,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J.C. Kuiper,5000.0,2,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,J.H. van Joolen,5000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,JHB Group B.V.,7500.0,1,"Burgemeester Burgerslaan 40, 5245 NH Rosmalen",H. Brus,Bestuurdersvereniging ChristenUnie
+2024,Volt,K. van Duyn,2000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,L. Dassen,13574.0,11,Den Haag,,Bestuurdersvereniging ChristenUnie
+2024,Volt,L. Houtman,2000.0,1,Utrecht,,Bestuurdersvereniging ChristenUnie
+2024,Volt,L. Vriesendorp,1000.0,1,Wassenaar,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. Dreesman,20000.0,3,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. Houtepen,1000.0,1,Nieuwegein,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. Koekkoek X. Lyu,10780.869999999999,9,Utrecht,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. Mourits,1000.0,1,Glimmen,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. Staal,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. den Hond - Brouwer,1000.0,1,Oegstgeest,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. den Ottolander,1000.0,1,Naarden,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. van Lanschot,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,M. van Leeuwen,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,N. Peteri,1000.0,1,Rotterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,Obsidian Holding B.V.,1000.0,1,"Lindenlaan 6, 1861 HA Bergen (NH)",P.T.R. Dekker,Bestuurdersvereniging ChristenUnie
+2024,Volt,P. Deiters-Rahusen,2000.0,2,Breukelen,,Bestuurdersvereniging ChristenUnie
+2024,Volt,P. Goes,2500.0,1,Rotterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,P. Mesie,1000.0,1,Nisse,,Bestuurdersvereniging ChristenUnie
+2024,Volt,R. Koolhaas,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,R. Kuijten,1000.0,1,Baarn,,Bestuurdersvereniging ChristenUnie
+2024,Volt,R. de Boer,1000.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,R. van Lanschot,4345.0,2,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,R. van Zeijst,2500.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,R.J. van Geer Beheer B.V.,20000.0,1,"Vaagweg 163, 2281 AJ Rijswijk",R.J. van Geer,Bestuurdersvereniging ChristenUnie
+2024,Volt,R.K. Elhorst,1000.0,1,Haarlem,,Bestuurdersvereniging ChristenUnie
+2024,Volt,S. Bakker,1010.0,1,Rotterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,S. Hepkema,2000.0,1,Wassenaar,,Bestuurdersvereniging ChristenUnie
+2024,Volt,S. Nijhuis,1000.0,1,Hengelo,,Bestuurdersvereniging ChristenUnie
+2024,Volt,S. Schreurs,1500.0,1,Amsterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,Stichting Shuksan,20000.0,1,"Noorderven 61, 1504 AL Zaandam",E. Schut,Bestuurdersvereniging ChristenUnie
+2024,Volt,T. Kind,1540.0,1,Rotterdam,,Bestuurdersvereniging ChristenUnie
+2024,Volt,T. Westendorp,1000.0,1,Enschede,,Bestuurdersvereniging ChristenUnie
+2024,Volt,Twycis Holding B.V.,2500.0,1,"Noorderweg 2, 1221 AA Hilversum",J. Gort,Bestuurdersvereniging ChristenUnie
+2024,Volt,V. van Asch-van Wijck,1000.0,1,Rhenen,,Bestuurdersvereniging ChristenUnie
+2024,Volt,Van Goethem Internet Ventures B.V.,10000.0,1,"Amstel 93, 1018 EL Amsterdam",M. van Goethem,Bestuurdersvereniging ChristenUnie
+2024,Volt,W. Brouwer,3000.0,2,Heiloo,,Bestuurdersvereniging ChristenUnie
+2024,Volt,W. Fermont,4000.0,2,Beekdaelen,,Bestuurdersvereniging ChristenUnie
+2024,Volt,W. Kolk,1000.0,1,Aalsmeer,,Bestuurdersvereniging ChristenUnie
+2025,CDA,J. Wytema,20000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,CDA,Koos Holding BV,50000.0,1,"Stadsring 99, 3811 HP Amersfoort","J.B. Dirksen, Hoogland",Foundation Max van der Stoel
+2025,CDA,Movet Beheer,22500.0,1,"Rijksstraatweg 87, 3632 AA Loenen aan de Vecht","W.J. van der Wind, Loenen aan de Vecht",Foundation Max van der Stoel
+2025,CDA,Ulme B.V,50000.0,1,"Oudwijkerlaan 47, 3581 TB Utrecht","J.G. Kaemingk, Zeist",Stichting CDA Business Club
+2025,CU,B en S Group B.V.,50000.0,1,"Veldstraat 8, 4261 TA Wijk en Aalburg","H.A. Sebens, Wijk en Aalburg",Stichting CDA Business Club
+2025,CU,J.A.C. Holding,10000.0,1,"Goessestraatweg 19, 4421 AD Kapelle","J.A.C. de Jongh, Meteren",Stichting CDA Business Club
+2025,CU,Jethro B.V.,10000.0,1,"Postbus 661, 2700 AE Zoetermeer",**,Stichting CDA Business Club
+2025,CU,Lily Holding,10000.0,1,"Wenpad 4, 2685 SJ Poeldijk","W. Voskamp, Poeldijk",Stichting CDA Business Club
+2025,CU,W. Tonckens-Heinen,10000.0,1,Rotterdam,,Stichting CDA Business Club
+2025,D66,A. Mulder,10000.0,1,Schoten (België),,Foundation Max van der Stoel
+2025,D66,Annabou B.V.,10000.0,1,"Oud Huizerweg 22, 1411 GZ Naarden",**,Foundation Max van der Stoel
+2025,D66,C. Bastiaansen,50000.0,1,Haarlem,,Foundation Max van der Stoel
+2025,D66,E. Pajkrt,10000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,F. van Beek,10000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,I. Uytdehaage,25000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,J. Baak,25000.0,1,Soest,,Foundation Max van der Stoel
+2025,D66,J. Loerakker,100000.0,1,Den Haag,,Foundation Max van der Stoel
+2025,D66,M.  Kleijwegt,15000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,M. Antal,50000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,M. Staal,10000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,M. Wegter,15000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,M. Witteveen,100000.0,1,Den Haag,,Foundation Max van der Stoel
+2025,D66,M. van Asbeck,25000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,MF van Eck Beheer BV,90000.0,1,"Herdersweg 10, 1251 ER Laren","M. van Eck, Laren",Foundation Max van der Stoel
+2025,D66,O. de Jager,10000.0,1,Singapore,,Foundation Max van der Stoel
+2025,D66,P. van der Ploeg,20000.0,2,Den Dolder,,Foundation Max van der Stoel
+2025,D66,Persimmons BV,100000.0,2,"Nieuwe Gracht 45, 2011 ND Haarlem","D. Huijgers, Zandvoort",Foundation Max van der Stoel
+2025,D66,R. Defares,100000.0,2,Den Haag,,Foundation Max van der Stoel
+2025,D66,R. de Jong,10000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,D66,R. van Essen,10000.0,1,Warmond,,Foundation Max van der Stoel
+2025,D66,Ribbink Van Den Hoek Familie Stichting,25000.0,1,"B Zweerslaan 1, 1077 TX Amsterdam","A. Ribbink, Amsterdam",Foundation Max van der Stoel
+2025,D66,The Dreamery Foundation,100000.0,1,"Hof van Zevenbergen 1A, 5211 HB Den Bosch","S. Schuurman, Delft",Foundation Max van der Stoel
+2025,D66,W. Sijthoff,10000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,FvD,L.T.C. Filippini,10000.0,1,Ouderkerk aan de Amstel,,Stichting CDA Business Club
+2025,FvD,Laurens Meyer Beheer B.V.,20000.0,2,"Pottenbakkerstraat 30, 4871 EP Etten-Leur","L. Meyer, Breda",Stichting CDA Business Club
+2025,FvD,M. van der Valk,10000.0,1,Haarlem,,Stichting CDA Business Club
+2025,FvD,RJS Management B.V.,10000.0,1,"Enghlaan 18, 1261 CC Blaricum","R. Staartjes, Blaricum",Stichting CDA Business Club
+2025,FvD,Stichting Dona,100000.0,1,"Boeingavenue 250, 1119 PZ Schiphol-Rijk","P. Poot, WassenaarE. Piët, Amsterdam",Stichting CDA Business Club
+2025,FvD,Stichting PjP,100000.0,1,"Boeingavenue 250, 1119 PZ Schiphol-Rijk","P. Poot, WassenaarE. Piët, AmsterdamJ. Vis, Ter Aar",Stichting CDA Business Club
+2025,FvD,T.M. Kreijger,15000.0,1,Brouwershaven,,Stichting CDA Business Club
+2025,GL,Stichting The Dreamery Foundation,20000.0,1,"Hof van Zevenbergen 1A, 5211 HB Den Bosch","S. Schuurman, Delft",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,JA21,Bata Participation Fund B.V.,20000.0,2,"Diemermere 1, 1112 TA Diemen","R.M. Kahn, Amsterdam",Stichting CDA Business Club
+2025,JA21,C.M.G. Thünnessen,100000.0,1,Wassenaar,,Stichting CDA Business Club
+2025,JA21,N. Poons,50000.0,1,Monaco,,Stichting CDA Business Club
+2025,JA21,VFR Holding BV,10000.0,1,"Beethovenweg 5 M, 2202 AE Noordwijk","P.J.P. Rubingh, Noordwijk",Stichting CDA Business Club
+2025,PvdA,A. Plaisier,20000.0,1,Den Haag,,Wiardi Beckman Stichting
+2025,PvdA,A.M. Maes,20000.0,2,Capelle aan den IJssel,,Wiardi Beckman Stichting
+2025,PvdA,J. Bakker,40000.0,2,Bentveld,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,PvdA,M. Kleijwegt,15000.0,1,Amsterdam,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,PvdA,M.J. Ligthart,90000.0,1,Amsterdam,,Foundation Max van der Stoel
+2025,PvdA,P. Albrecht,25000.0,1,Vierhouten,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,PvdA,Stichting The Dreamery Foundation,20000.0,1,"Hof van Zevenbergen 1A, 5211 HB Den Bosch","S. Schuurman, Delft",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,PvdD,B.F. van Alste p/a Blankhart & Bronkhorst Notarissen,95000.0,1,"Wolterbeeklaan 3, 7361 ZD Beekbergen",,Stichting CDA Business Club
+2025,PvdD,E. Ouwehand,19525.0,1,Den Haag,,Stichting CDA Business Club
+2025,PvdD,G. Kromhout-van Eck,100000.0,1,Lunteren,,Stichting CDA Business Club
+2025,PvdD,H.F. Reinders,22807.23,1,Alkmaar,,Stichting CDA Business Club
+2025,PvdD,I. Kostic,14005.0,1,Hilversum,,Stichting CDA Business Club
+2025,PvdD,J. Luijendijk,16549.59,1,Almere,,Stichting CDA Business Club
+2025,PvdD,Kosmo West Twente B.V.,25001.0,2,"Twentepoort West 5, 7609 RD Almelo","S. Dekkers, Zwolle",Stichting CDA Business Club
+2025,PvdD,M.A.J. Koolen p/a Knook & Schot Notarissen,43860.24,1,"Hoogstraat 15, 4691 CA Tholen",,Stichting CDA Business Club
+2025,PvdD,M.F. Albrecht,25000.0,1,Vierhouten,,Stichting CDA Business Club
+2025,SGP,Bosopslag Beheer B.V.,10000.0,1,"Seringenstraat 2, 4043 PK Opheusden","A.J. Mauritz, Opheusden",Stichting CDA Business Club
+2025,SGP,D.B. Keuken Groep B.V.,10000.0,1,"Ceciliaweg 4, 4697 RV Sint-Annaland","A.J. van Dijke, Sint-Annaland",Stichting CDA Business Club
+2025,SGP,De Vries en Verburg Bouw B.V.,10000.0,1,"’t Vaartland 8, 2821 LH Stolwijk","J. Verburg, Stolwijk",Stichting CDA Business Club
+2025,SGP,FTH Groep B.V.,10000.0,1,"Hogeveldseweg 2, 4041 CP Kesteren","G.A. Timmer, Kesteren",Stichting CDA Business Club
+2025,SGP,Falk Investment B.V.,15000.0,1,"Lage Veldweg 5, 6741 JL Lunteren","J. Hardeman, Lunteren",Stichting CDA Business Club
+2025,SGP,Jan Konijn Beheer/Advies o.g. B.V.,15000.0,1,"Eerste Stationsstraat 85, 2712 HD Zoetermeer","J. Konijn, Zoetermeer",Stichting CDA Business Club
+2025,SGP,Jarwi Holding B.V.,10000.0,1,"Lage Veldweg 5, 6741 JL Lunteren","W. Hardeman, LunterenH.A. Hardeman, KootwijkerbroekJ. Hardeman, Lunteren",Stichting CDA Business Club
+2025,SGP,Reijersen van Buuren Beheer B.V,10000.0,1,"Waterweg 109, 3882 RB Putten","J.G. Reijersen van Buuren, Putten",Stichting CDA Business Club
+2025,SGP,Schulp Beheer Breukelen B.V.,12100.0,1,"Zandpad 76, 3621 NG Breukelen","A. Schulp , BreukelenD. Schulp-Averesch, Breukelen",Stichting CDA Business Club
+2025,VVD,Bombilate Media B.V.,10000.0,1,"Mt Lincolnweg 38-40, 1033 SN Amsterdam","S. Rookhuizen, Amsterdam",
+2025,VVD,Bona iDea Advisory B.V.,10000.0,1,"Stationsplein 2, 6231 CN Meerssen","K. van Heesteren, Meerssen",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,Bouwmaterialen Desein B.V.,14000.0,1,"Duitslandweg 2, 4538 BK Terneuzen","J. van der Peijl, Zaamslag",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,C.P.G. van Oostrom Beheer,50000.0,1,"Fred Roeskesstraat 115, 1076 EE Amsterdam","C. van Oostrom, Amsterdam",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,Constar B.V.,45000.0,2,"Zuiderhavenweg 56, 4004 JJ Tiel","A.B. de Regt, Laren",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,E.A. Nijkerk,100000.0,1,Wassenaar,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,Focus on Impact B.V.,25000.0,1,"Parklaan 48, 5613 BG Eindhoven","I. Staals, Valkenswaard",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,Godefridus Van Hees Fonds,35000.0,1,"Eikenlaan 22, 4356 HE Oostkappelle","M.A.R.C. Padberg, RotterdamR. Post, Rotterdam",
+2025,VVD,Lingedelta B.V.,50000.0,1,"Wanraaij 2, 6673 DN Andelst","J. van de Kamp, Oosterbeek",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,Metterwoon Vastgoed B.V.,100000.0,1,"Badhuisweg 108, 2587 CM Den Haag","C.M.G. Thünnessen, Wassenaar",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,Navara Group B.V.,10000.0,1,"Hoofdstraat 244, 3972 LK Driebergen-Rijsenburg","A.J. Kamminga, Driebergen-Rijsenburg",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,ProWinko B.V.,25000.0,1,"Bella Donna 2, 1181 RM Amstelveen","M. Vorst, Amsterdam",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,VVD,Robyn Investments B.V.,25000.0,1,"Herengracht 185C, 1016 BE Amsterdam","R. Veltmeijer, Amsterdam",
+2025,VVD,VVD Bestuurdersvereniging,40000.0,1,"Mauritskade 21, 2500 GV Den Haag","N. Mol, DordrechtM. Vulpes, HellumF. Hartelust, IJsselstein",
+2025,VVD,Yip Group B.V.,15000.0,1,"Dam 3A, 1001 EX Amsterdam","W. Yip, Amsterdam",Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2025,Volt,Beheer zonder naam B.V.,10000.0,1,"Nieuwe Laanstraat 4, 1211 DB Hilversum","R. Ruijs, Hilversum",Stichting CDA Business Club
+2025,Volt,Dokus B.V.,10000.0,1,"Reykjavikstraat 1, 3543 KH Utrecht","S.J. van Atteveldt, Utrecht",Stichting CDA Business Club
+2025,Volt,Goethem Internet Venture,12500.0,1,"Amstel 93, 1018 EL Amsterdam","M.B.J. van Goethem, Amsterdam",Stichting CDA Business Club
+2025,Volt,H.J. Buitenhuis,15000.0,1,Arnhem,,Stichting CDA Business Club
+2025,Volt,Stichting Shuksan,25000.0,1,"Noorderven, 61, 1504 AL Zaandam","E. Schut, Wormer",Stichting CDA Business Club
+2025,Volt,Stichting The Dreamery Foundation,100000.0,1,"Hof van Zevenbergen 1A, 5211 HB Den Bosch","S. Schuurman, Delft",Stichting CDA Business Club
+2025,Volt,T. Tieleman,10000.0,1,Diemen,,Stichting CDA Business Club
+2026,D66,P. van der Ploeg,10000.0,1,Den Dolder,,
+2026,PvdD,G. Kromhout-van Eck,100000.0,1,Lunteren,,Stichting Ondersteuning VVD Tweede Kamerverkiezing
+2026,VVD,Optidob B.V.,50000.0,1,"Parnassusweg 729, 1077 DG Amsterdam","J. Dobber, Amsterdam",Stichting Ondersteuning VVD Tweede Kamerverkiezing

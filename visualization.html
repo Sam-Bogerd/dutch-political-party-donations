@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Giften aan Nederlandse Politieke Partijen 2023–2026</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #232733;
+    --border: #2e3345;
+    --text: #e4e6ef;
+    --text-dim: #8b8fa3;
+    --accent: #6c8aff;
+    --accent2: #a78bfa;
+    --green: #34d399;
+    --amber: #fbbf24;
+    --red: #f87171;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  .header {
+    background: linear-gradient(135deg, #1e2340 0%, #0f1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #6c8aff, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: .5rem;
+  }
+
+  .header .subtitle {
+    color: var(--text-dim);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .caveat {
+    max-width: 900px;
+    margin: 1.5rem auto 0;
+    padding: 1rem 1.25rem;
+    background: rgba(251, 191, 36, .08);
+    border: 1px solid rgba(251, 191, 36, .25);
+    border-radius: 8px;
+    font-size: .85rem;
+    color: var(--amber);
+    line-height: 1.5;
+  }
+
+  .container { max-width: 1300px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* Summary Cards */
+  .summary-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .stat-card .value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .stat-card .label {
+    font-size: .85rem;
+    color: var(--text-dim);
+    margin-top: .25rem;
+  }
+
+  /* Sections */
+  .section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: .35rem;
+  }
+
+  .section .section-desc {
+    color: var(--text-dim);
+    font-size: .9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Charts */
+  .chart-wrapper {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+  }
+
+  .chart-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  /* Tables */
+  .table-wrapper { overflow-x: auto; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .88rem;
+  }
+
+  th {
+    text-align: left;
+    padding: .75rem 1rem;
+    background: var(--surface2);
+    color: var(--text-dim);
+    font-weight: 600;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    border-bottom: 2px solid var(--border);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  th:hover { color: var(--accent); }
+  th.sorted-asc::after { content: ' \u25B2'; font-size: .65em; }
+  th.sorted-desc::after { content: ' \u25BC'; font-size: .65em; }
+
+  td {
+    padding: .65rem 1rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  tr:hover td { background: rgba(108, 138, 255, .04); }
+
+  .amount {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .amount-cell { text-align: right; }
+
+  /* Party badge */
+  .party-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: .78rem;
+    font-weight: 600;
+    margin: 1px 2px;
+    white-space: nowrap;
+  }
+
+  .year-badge {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 4px;
+    font-size: .75rem;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    margin: 1px 1px;
+  }
+
+  /* Party color map */
+  .party-VVD  { background: rgba(255,102,0,.15); color: #ff8c33; border: 1px solid rgba(255,102,0,.3); }
+  .party-D66  { background: rgba(0,170,120,.15); color: #00cc90; border: 1px solid rgba(0,170,120,.3); }
+  .party-SP   { background: rgba(220,38,38,.15); color: #f87171; border: 1px solid rgba(220,38,38,.3); }
+  .party-GL   { background: rgba(34,197,94,.15); color: #4ade80; border: 1px solid rgba(34,197,94,.3); }
+  .party-PvdD { background: rgba(22,163,74,.15); color: #22c55e; border: 1px solid rgba(22,163,74,.3); }
+  .party-CDA  { background: rgba(0,128,0,.15); color: #4caf50; border: 1px solid rgba(0,128,0,.3); }
+  .party-FvD  { background: rgba(128,0,0,.15); color: #d97777; border: 1px solid rgba(128,0,0,.3); }
+  .party-Volt { background: rgba(80,40,180,.15); color: #a78bfa; border: 1px solid rgba(80,40,180,.3); }
+  .party-PvdA { background: rgba(220,38,38,.12); color: #fb923c; border: 1px solid rgba(220,100,38,.3); }
+  .party-SGP  { background: rgba(255,140,0,.12); color: #fbbf24; border: 1px solid rgba(255,140,0,.3); }
+  .party-CU   { background: rgba(59,130,246,.15); color: #60a5fa; border: 1px solid rgba(59,130,246,.3); }
+  .party-JA21 { background: rgba(30,58,138,.15); color: #93c5fd; border: 1px solid rgba(30,58,138,.3); }
+  .party-BVNL { background: rgba(120,53,15,.15); color: #d97706; border: 1px solid rgba(120,53,15,.3); }
+  .party-BBB  { background: rgba(101,163,13,.15); color: #a3e635; border: 1px solid rgba(101,163,13,.3); }
+  .party-PVV  { background: rgba(100,100,100,.15); color: #a1a1aa; border: 1px solid rgba(100,100,100,.3); }
+  .party-DENK { background: rgba(14,165,233,.15); color: #38bdf8; border: 1px solid rgba(14,165,233,.3); }
+
+  /* Party detail expandable */
+  .party-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .party-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    cursor: pointer;
+    transition: border-color .2s, transform .15s;
+  }
+
+  .party-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .party-card .pc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .75rem;
+  }
+
+  .party-card .pc-name { font-size: 1.1rem; font-weight: 700; }
+  .party-card .pc-total { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+
+  .party-card .pc-years {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+  }
+
+  .pc-year-item {
+    font-size: .78rem;
+    color: var(--text-dim);
+  }
+
+  .pc-year-item span {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  /* Modal */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.65);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .modal-overlay.active { display: flex; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    max-width: 850px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 2rem;
+  }
+
+  .modal h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+
+  .modal-close {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 4px 12px;
+    font-size: .85rem;
+  }
+
+  .modal-close:hover { color: var(--text); border-color: var(--text-dim); }
+
+  /* Tabs */
+  .tabs {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0;
+  }
+
+  .tab-btn {
+    padding: .6rem 1.25rem;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: .9rem;
+    border-bottom: 2px solid transparent;
+    transition: color .2s, border-color .2s;
+  }
+
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Network diagram */
+  .network-container {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .network-container svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .summary-row { grid-template-columns: repeat(2, 1fr); }
+    .chart-row { grid-template-columns: 1fr; }
+    .header h1 { font-size: 1.6rem; }
+    .party-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Bar segments for stacked inline bars */
+  .bar-container {
+    display: flex;
+    height: 24px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+
+  .bar-seg {
+    height: 100%;
+    transition: opacity .2s;
+    position: relative;
+  }
+
+  .bar-seg:hover { opacity: .8; }
+
+  /* Search / Filter */
+  .search-box {
+    width: 100%;
+    max-width: 400px;
+    padding: .6rem 1rem;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+
+  .search-box:focus { border-color: var(--accent); }
+  .search-box::placeholder { color: var(--text-dim); }
+
+  .donor-address {
+    font-size: .78rem;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Giften aan Nederlandse Politieke Partijen</h1>
+  <p class="subtitle">Analyse van donaties aan politieke partijen op basis van openbare data van de Rijksoverheid (2023–2026)</p>
+  <div class="caveat">
+    <strong>Let op:</strong> De data voor 2024 bevat alle giften &ge; &euro;1.000 (jaaroverzicht).
+    De data voor 2023, 2025 en 2026 bevat alleen <em>substanti&euml;le</em> giften &ge; &euro;10.000 (meldplicht binnen 3 dagen).
+    Het jaar 2026 bevat alleen data t/m 30 januari 2026.
+    Bij SP en GL bestaat een groot deel van de donaties uit afdrachten van volksvertegenwoordigers.
+  </div>
+</div>
+
+<div class="container">
+  <!-- Summary stats -->
+  <div class="summary-row" id="summaryRow"></div>
+
+  <!-- Tab navigation -->
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="overview">Overzicht per partij</button>
+    <button class="tab-btn" data-tab="topdonors">Top donateurs</button>
+    <button class="tab-btn" data-tab="recurring">Terugkerende donateurs</button>
+    <button class="tab-btn" data-tab="multiparty">Multi-partij donateurs</button>
+    <button class="tab-btn" data-tab="partydetail">Detail per partij</button>
+  </div>
+
+  <!-- Tab: Overview -->
+  <div class="tab-content active" id="tab-overview">
+    <div class="section">
+      <h2>Totale giften per partij per jaar</h2>
+      <p class="section-desc">Klik op een partij in de legenda om deze te tonen of te verbergen</p>
+      <div class="chart-wrapper"><canvas id="chartPartyYear" height="380"></canvas></div>
+    </div>
+    <div class="chart-row">
+      <div class="section">
+        <h2>Aantal donateurs per partij</h2>
+        <p class="section-desc">Unieke donateurs per jaar</p>
+        <div class="chart-wrapper"><canvas id="chartDonorCount" height="350"></canvas></div>
+      </div>
+      <div class="section">
+        <h2>Totaal per partij (alle jaren)</h2>
+        <p class="section-desc">Gecombineerd totaal 2023–2026</p>
+        <div class="chart-wrapper"><canvas id="chartPartyTotal" height="350"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab: Top donors -->
+  <div class="tab-content" id="tab-topdonors">
+    <div class="section">
+      <h2>Top 30 grootste donateurs (alle jaren)</h2>
+      <p class="section-desc">Gerangschikt op totaalbedrag van alle donaties gecombineerd</p>
+      <input type="text" class="search-box" id="searchTopDonors" placeholder="Zoek op naam of partij...">
+      <div class="table-wrapper">
+        <table id="tableTopDonors">
+          <thead>
+            <tr>
+              <th data-sort="rank">#</th>
+              <th data-sort="naam">Naam donateur</th>
+              <th data-sort="totaal" class="amount-cell">Totaalbedrag</th>
+              <th data-sort="partijen">Partij(en)</th>
+              <th data-sort="jaren">Jaren</th>
+              <th data-sort="n" class="amount-cell">Donaties</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab: Recurring -->
+  <div class="tab-content" id="tab-recurring">
+    <div class="section">
+      <h2>Terugkerende donateurs</h2>
+      <p class="section-desc">37 donateurs die in meerdere jaren hebben gedoneerd</p>
+      <div class="table-wrapper">
+        <table id="tableRecurring">
+          <thead>
+            <tr>
+              <th data-sort="naam">Naam donateur</th>
+              <th data-sort="totaal" class="amount-cell">Totaalbedrag</th>
+              <th data-sort="partijen">Partij(en)</th>
+              <th data-sort="jaren">Jaren</th>
+              <th>Woonplaats</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab: Multi-party -->
+  <div class="tab-content" id="tab-multiparty">
+    <div class="section">
+      <h2>Donateurs aan meerdere partijen</h2>
+      <p class="section-desc">Donateurs die aan meer dan &eacute;&eacute;n partij hebben gegeven</p>
+      <div id="multiPartyCards"></div>
+    </div>
+    <div class="section">
+      <h2>Netwerk: donateurs en partijen</h2>
+      <p class="section-desc">Visualisatie van donateurs die aan meerdere partijen geven. Lijndikte geeft het bedrag weer.</p>
+      <div class="network-container" id="networkContainer"></div>
+    </div>
+  </div>
+
+  <!-- Tab: Party detail -->
+  <div class="tab-content" id="tab-partydetail">
+    <div class="section">
+      <h2>Top 10 donateurs per partij</h2>
+      <p class="section-desc">Klik op een partij voor details</p>
+      <div class="party-grid" id="partyGrid"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modalContent"></div>
+</div>
+
+<script>
+// ============================================================
+// DATA (embedded from Python export)
+// ============================================================
+const DATA = {"party_year_totals": {"2023": {"BBB": 60000.0, "BVNL": 140000.0, "CDA": 70000.0, "CU": 39666.0, "D66": 485500.0, "FvD": 360900.0, "GL": 20000.0, "PVV": 15000.0, "PvdA": 123535.0, "PvdD": 47194.0, "SGP": 26300.0, "SP": 43275.0, "VVD": 1627485.0, "Volt": 135323.0}, "2024": {"BBB": 44700.0, "BVNL": 30114.0, "CDA": 506964.0, "CU": 133019.0, "D66": 487813.0, "DENK": 4900.0, "FvD": 62500.0, "GL": 1456884.0, "JA21": 7000.0, "PvdA": 96056.0, "PvdD": 309656.0, "SGP": 258566.0, "SP": 1741711.0, "VVD": 327495.0, "Volt": 277928.0}, "2025": {"CDA": 142500.0, "CU": 90000.0, "D66": 930000.0, "FvD": 265000.0, "GL": 20000.0, "JA21": 180000.0, "PvdA": 230000.0, "PvdD": 361748.0, "SGP": 102100.0, "VVD": 554000.0, "Volt": 182500.0}, "2026": {"D66": 10000.0, "PvdD": 100000.0, "VVD": 50000.0}}, "donor_counts": {"2023": {"BBB": 2, "BVNL": 6, "CDA": 3, "CU": 1, "D66": 13, "FvD": 13, "GL": 1, "PVV": 1, "PvdA": 4, "PvdD": 3, "SGP": 2, "SP": 1, "VVD": 35, "Volt": 9}, "2024": {"BBB": 6, "BVNL": 7, "CDA": 147, "CU": 14, "D66": 66, "DENK": 1, "FvD": 34, "GL": 113, "JA21": 3, "PvdA": 59, "PvdD": 44, "SGP": 62, "SP": 90, "VVD": 88, "Volt": 77}, "2025": {"CDA": 4, "CU": 5, "D66": 24, "FvD": 7, "GL": 1, "JA21": 4, "PvdA": 7, "PvdD": 9, "SGP": 9, "VVD": 15, "Volt": 7}, "2026": {"D66": 1, "PvdD": 1, "VVD": 1}}, "top_donors": [{"naam": "R. Defares", "totaal": 300000.0, "partijen": ["D66"], "jaren": [2023, 2024, 2025], "adres": "Den Haag", "n": 6}, {"naam": "E.A. Nijkerk", "totaal": 300000.0, "partijen": ["VVD"], "jaren": [2023, 2024, 2025], "adres": "Wassenaar", "n": 4}, {"naam": "Stichting The Dreamery Foundation", "totaal": 280000.0, "partijen": ["D66", "GL", "PvdA", "Volt"], "jaren": [2023, 2025], "adres": "Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch", "n": 6}, {"naam": "M. Witteveen", "totaal": 202000.0, "partijen": ["D66"], "jaren": [2023, 2024, 2025], "adres": "Den Haag", "n": 5}, {"naam": "G. Kromhout-van Eck", "totaal": 200000.0, "partijen": ["PvdD"], "jaren": [2025, 2026], "adres": "Lunteren", "n": 2}, {"naam": "Persimmons BV", "totaal": 150000.0, "partijen": ["D66"], "jaren": [2023, 2025], "adres": "Nieuwe Gracht 45, 2011 ND Haarlem", "n": 4}, {"naam": "Stichting Dona", "totaal": 125000.0, "partijen": ["BVNL", "FvD"], "jaren": [2023, 2025], "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk", "n": 2}, {"naam": "S. Dobbe", "totaal": 112511.0, "partijen": ["SP"], "jaren": [2024], "adres": "Arnhem", "n": 12}, {"naam": "Movet Beheer", "totaal": 112500.0, "partijen": ["CDA"], "jaren": [2024, 2025], "adres": "Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht", "n": 3}, {"naam": "J. Dijk", "totaal": 112159.0, "partijen": ["SP"], "jaren": [2024], "adres": "Groningen", "n": 12}, {"naam": "S. Beckerman", "totaal": 111185.0, "partijen": ["SP"], "jaren": [2024], "adres": "Groningen", "n": 12}, {"naam": "M. van Nispen", "totaal": 103045.0, "partijen": ["SP"], "jaren": [2024], "adres": "Breda", "n": 12}, {"naam": "J. Loerakker", "totaal": 100000.0, "partijen": ["D66"], "jaren": [2025], "adres": "Den Haag", "n": 1}, {"naam": "SCP Management", "totaal": 100000.0, "partijen": ["VVD"], "jaren": [2023], "adres": "Postbus 340, 5060 AH Oisterwijk", "n": 1}, {"naam": "R.M. Moos", "totaal": 100000.0, "partijen": ["VVD"], "jaren": [2023], "adres": "Hoofddorp", "n": 1}, {"naam": "S. van der Heijden", "totaal": 100000.0, "partijen": ["D66"], "jaren": [2023], "adres": "Amsterdam", "n": 1}, {"naam": "C.M.G. Thünnessen", "totaal": 100000.0, "partijen": ["JA21"], "jaren": [2025], "adres": "Wassenaar", "n": 1}, {"naam": "Keurvorst B.V.", "totaal": 100000.0, "partijen": ["CDA"], "jaren": [2023, 2024], "adres": "P.O. box 150, 3700 AD Zeist", "n": 2}, {"naam": "KiMi B.V.", "totaal": 100000.0, "partijen": ["VVD"], "jaren": [2023], "adres": "Hoenderstraat 119, 5801 CJ Venray", "n": 1}, {"naam": "Stichting PjP", "totaal": 100000.0, "partijen": ["FvD"], "jaren": [2025], "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk", "n": 1}, {"naam": "Metterwoon Vastgoed B.V.", "totaal": 100000.0, "partijen": ["VVD"], "jaren": [2025], "adres": "Badhuisweg 108, 2587 CM Den Haag", "n": 1}, {"naam": "The Dreamery Foundation", "totaal": 100000.0, "partijen": ["D66"], "jaren": [2025], "adres": "Hof van Zevenbergen 1A, 5211 HB Den Bosch", "n": 1}, {"naam": "F. Richartz", "totaal": 100000.0, "partijen": ["FvD"], "jaren": [2023], "adres": "Nijmegen", "n": 2}, {"naam": "&Samhoud Nederland B.V.", "totaal": 99525.0, "partijen": ["D66"], "jaren": [2024], "adres": "Maliebaan 55, 3581 CE Utrecht", "n": 4}, {"naam": "B.F. van Alste p/a Blankhart & Bronkhorst Notarissen", "totaal": 95000.0, "partijen": ["PvdD"], "jaren": [2025], "adres": "Wolterbeeklaan 3, 7361 ZD Beekbergen", "n": 1}, {"naam": "B. van Kent", "totaal": 93486.0, "partijen": ["SP"], "jaren": [2024], "adres": "Den Haag", "n": 12}, {"naam": "M.J. Ligthart", "totaal": 90000.0, "partijen": ["PvdA"], "jaren": [2025], "adres": "Amsterdam", "n": 1}, {"naam": "MF van Eck Beheer BV", "totaal": 90000.0, "partijen": ["D66"], "jaren": [2025], "adres": "Herdersweg 10, 1251 ER Laren", "n": 1}, {"naam": "K. van Sparrentak", "totaal": 88642.0, "partijen": ["GL"], "jaren": [2024], "adres": "Rotterdam", "n": 29}, {"naam": "O. Broos-Bos", "totaal": 85000.0, "partijen": ["CU"], "jaren": [2024], "adres": "Assen", "n": 1}], "recurring_donors": [{"naam": "E.A. Nijkerk", "totaal": 300000.0, "partijen": ["VVD"], "jaren": [2023, 2024, 2025], "adres": "Wassenaar"}, {"naam": "R. Defares", "totaal": 300000.0, "partijen": ["D66"], "jaren": [2023, 2024, 2025], "adres": "Den Haag"}, {"naam": "Stichting The Dreamery Foundation", "totaal": 280000.0, "partijen": ["D66", "GL", "PvdA", "Volt"], "jaren": [2023, 2025], "adres": "Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch"}, {"naam": "M. Witteveen", "totaal": 202000.0, "partijen": ["D66"], "jaren": [2023, 2024, 2025], "adres": "Den Haag"}, {"naam": "G. Kromhout-van Eck", "totaal": 200000.0, "partijen": ["PvdD"], "jaren": [2025, 2026], "adres": "Lunteren"}, {"naam": "Persimmons BV", "totaal": 150000.0, "partijen": ["D66"], "jaren": [2023, 2025], "adres": "Nieuwe Gracht 45, 2011 ND Haarlem"}, {"naam": "Stichting Dona", "totaal": 125000.0, "partijen": ["BVNL", "FvD"], "jaren": [2023, 2025], "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"}, {"naam": "Movet Beheer", "totaal": 112500.0, "partijen": ["CDA"], "jaren": [2024, 2025], "adres": "Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht"}, {"naam": "Keurvorst B.V.", "totaal": 100000.0, "partijen": ["CDA"], "jaren": [2023, 2024], "adres": "P.O. box 150, 3700 AD Zeist"}, {"naam": "Godefridus van Hees Fonds", "totaal": 67200.0, "partijen": ["D66", "VVD"], "jaren": [2023, 2024], "adres": "Eikenlaan 22, 4356 HE Oostkapelle"}, {"naam": "J. Baak", "totaal": 65000.0, "partijen": ["D66"], "jaren": [2023, 2024, 2025], "adres": "Soest"}, {"naam": "Stichting Shuksan", "totaal": 65000.0, "partijen": ["Volt"], "jaren": [2023, 2024, 2025], "adres": "Noorderven 61, 1504 AL Zaandam"}, {"naam": "E. Ouwehand", "totaal": 54065.0, "partijen": ["PvdD"], "jaren": [2023, 2024, 2025], "adres": "Den Haag"}, {"naam": "P. van der Ploeg", "totaal": 50000.0, "partijen": ["D66"], "jaren": [2024, 2025, 2026], "adres": "Den Dolder"}, {"naam": "J. Luijendijk", "totaal": 43506.0, "partijen": ["PvdD"], "jaren": [2023, 2024, 2025], "adres": "Almere"}, {"naam": "J. Bakker", "totaal": 41045.0, "partijen": ["CDA", "PvdA"], "jaren": [2024, 2025], "adres": "Huizen"}, {"naam": "C. Teunissen", "totaal": 37533.0, "partijen": ["PvdD"], "jaren": [2023, 2024], "adres": "Den Haag"}, {"naam": "Van Goethem Internet Ventures B.V.", "totaal": 35000.0, "partijen": ["Volt"], "jaren": [2023, 2024], "adres": "Amstel 93, 1018 EL Amsterdam"}, {"naam": "Lambda Furtherance BV", "totaal": 34000.0, "partijen": ["FvD"], "jaren": [2023, 2024], "adres": "Landgoed De Wittenburg 1, 2244 BV Wassenaar"}, {"naam": "W. Sijthoff", "totaal": 30000.0, "partijen": ["D66"], "jaren": [2023, 2024, 2025], "adres": "Amsterdam"}, {"naam": "I. Kostic", "totaal": 29214.0, "partijen": ["PvdD"], "jaren": [2024, 2025], "adres": "Hilversum"}, {"naam": "Laurens Meyer Beheer B.V.", "totaal": 25000.0, "partijen": ["BVNL", "FvD"], "jaren": [2024, 2025], "adres": "Pottenbakkerstraat 30, 4871 EP Etten-Leur"}, {"naam": "Jan Konijn Beheer/Advies o.g. B.V.", "totaal": 23150.0, "partijen": ["SGP"], "jaren": [2024, 2025], "adres": "Eerste Stationsstraat 85-87, 2712 HD Zoetermeer"}, {"naam": "Navara Group B.V.", "totaal": 23000.0, "partijen": ["VVD"], "jaren": [2023, 2025], "adres": "Hoofdstraat 244, 3972 LK Driebergen-Rijsenburg"}, {"naam": "H.O.C.R. Ruding", "totaal": 22500.0, "partijen": ["CDA"], "jaren": [2023, 2024], "adres": "Den Haag"}, {"naam": "R. de Jong", "totaal": 20500.0, "partijen": ["D66"], "jaren": [2023, 2025], "adres": "Amsterdam"}, {"naam": "A. Mulder", "totaal": 20000.0, "partijen": ["D66"], "jaren": [2023, 2025], "adres": "Schoten (België)"}, {"naam": "De Vries en Verburg Bouw B.V.", "totaal": 20000.0, "partijen": ["SGP"], "jaren": [2024, 2025], "adres": "Postbus 59, 2820 AB Stolwijk"}, {"naam": "Jethro B.V.", "totaal": 19000.0, "partijen": ["CU"], "jaren": [2024, 2025], "adres": "Koraalrood 161, 2718 SB Zoetermeer"}, {"naam": "E. Venghaus", "totaal": 16250.0, "partijen": ["CDA"], "jaren": [2023, 2024], "adres": "Leidschendam"}, {"naam": "F. van Beek", "totaal": 16000.0, "partijen": ["D66"], "jaren": [2024, 2025], "adres": "Amsterdam"}, {"naam": "Wetzels B.V.", "totaal": 13000.0, "partijen": ["VVD"], "jaren": [2023, 2024], "adres": "Coba Pulskensdreef 11, 4904 WB Oosterhout"}, {"naam": "Beyuna B.V.", "totaal": 12000.0, "partijen": ["FvD"], "jaren": [2023, 2024], "adres": "Paasheuvelweg 26, 1105 BJ Amsterdam"}, {"naam": "Lily Holding", "totaal": 12000.0, "partijen": ["CU"], "jaren": [2024, 2025], "adres": "Wenpad 4, 2685 SJ Poeldijk"}, {"naam": "W.R. van Haga", "totaal": 11200.0, "partijen": ["BVNL"], "jaren": [2023, 2024], "adres": "Haarlem"}, {"naam": "M. Staal", "totaal": 11000.0, "partijen": ["D66", "Volt"], "jaren": [2024, 2025], "adres": "Amsterdam"}, {"naam": "R. van Essen", "totaal": 11000.0, "partijen": ["D66"], "jaren": [2024, 2025], "adres": "Warmond"}], "multi_party_donors": [{"naam": "Stichting The Dreamery Foundation", "totaal": 280000.0, "partijen": ["D66", "GL", "PvdA", "Volt"], "jaren": [2023, 2025], "per_party": {"D66": 100000.0, "GL": 40000.0, "PvdA": 40000.0, "Volt": 100000.0}}, {"naam": "Stichting Dona", "totaal": 125000.0, "partijen": ["BVNL", "FvD"], "jaren": [2023, 2025], "per_party": {"BVNL": 25000.0, "FvD": 100000.0}}, {"naam": "Godefridus van Hees Fonds", "totaal": 67200.0, "partijen": ["D66", "VVD"], "jaren": [2023, 2024], "per_party": {"D66": 16000.0, "VVD": 51200.0}}, {"naam": "J. Bakker", "totaal": 41045.0, "partijen": ["CDA", "PvdA"], "jaren": [2024, 2025], "per_party": {"CDA": 1045.0, "PvdA": 40000.0}}, {"naam": "Piegretia B.V.", "totaal": 30000.0, "partijen": ["FvD", "PVV"], "jaren": [2023], "per_party": {"FvD": 15000.0, "PVV": 15000.0}}, {"naam": "Laurens Meyer Beheer B.V.", "totaal": 25000.0, "partijen": ["BVNL", "FvD"], "jaren": [2024, 2025], "per_party": {"BVNL": 5000.0, "FvD": 20000.0}}, {"naam": "M. Staal", "totaal": 11000.0, "partijen": ["D66", "Volt"], "jaren": [2024, 2025], "per_party": {"D66": 10000.0, "Volt": 1000.0}}], "party_top_donors": {"BBB": [{"naam": "Trigona Dairy Trade", "totaal": 50000.0, "jaren": [2023], "n": 1, "adres": "Luijnhorststraat 16 a, 6941 RD Didam"}, {"naam": "Trigona Dairy Trade B.V.", "totaal": 35000.0, "jaren": [2024], "n": 1, "adres": "Luijnhorststraat 16, 6941 RD Didam"}, {"naam": "VDE Holding BV", "totaal": 10000.0, "jaren": [2023], "n": 1, "adres": "Langewijk 328, 7701 AP Dedemsvaart"}, {"naam": "Lost Boys B.V.", "totaal": 5000.0, "jaren": [2024], "n": 1, "adres": "Thuil 1, 6365 AC Schinnen"}, {"naam": "E.G. Grijssen", "totaal": 1700.0, "jaren": [2024], "n": 1, "adres": "Lettele"}, {"naam": "J.C.J. Beemsterboer", "totaal": 1000.0, "jaren": [2024], "n": 1, "adres": "Tuitjenhorn"}, {"naam": "Loeters de Geer B.V.", "totaal": 1000.0, "jaren": [2024], "n": 1, "adres": "Luijnhorststraat 16, 6941 RD Didam"}, {"naam": "MFK Holding B.V.", "totaal": 1000.0, "jaren": [2024], "n": 1, "adres": "Hoofdstraat 12, 6994 AE De Steeg"}], "BVNL": [{"naam": "Chipshol 2000 B.V.", "totaal": 50000.0, "jaren": [2023], "n": 1, "adres": "Boeingavenue 250 , 1119 PZ Schiphol-Rijk"}, {"naam": "Stichting Dona", "totaal": 25000.0, "jaren": [2023], "n": 1, "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"}, {"naam": "Sjopperdepop BV", "totaal": 25000.0, "jaren": [2023], "n": 1, "adres": "Palletweg 32, 2031 DB Haarlem"}, {"naam": "Wizard Ventures BV", "totaal": 20000.0, "jaren": [2023], "n": 2, "adres": "Rondehoep 52 A, 1191 KM Ouderkerk aan de Amstel"}, {"naam": "W.R. van Haga", "totaal": 11200.0, "jaren": [2023, 2024], "n": 2, "adres": "Haarlem"}, {"naam": "W. van Haga", "totaal": 11044.0, "jaren": [2024], "n": 2, "adres": "Haarlem"}, {"naam": "Horeca Beheer B.V", "totaal": 10000.0, "jaren": [2023], "n": 1, "adres": "Leenderbos 48, 1447 TV Purmerend"}, {"naam": "Flofeet Holding B.V.", "totaal": 5000.0, "jaren": [2024], "n": 1, "adres": "Reest 36, 5032 EP Tilburg"}, {"naam": "Laurens Meyer Beheer B.V.", "totaal": 5000.0, "jaren": [2024], "n": 1, "adres": "Pottenbakkerstraat 30, 4871 EP Etten-Leur"}, {"naam": "R. Berghuis", "totaal": 5000.0, "jaren": [2024], "n": 1, "adres": "Rotterdam"}], "CDA": [{"naam": "Movet Beheer", "totaal": 112500.0, "jaren": [2024, 2025], "n": 3, "adres": "Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht"}, {"naam": "Keurvorst B.V.", "totaal": 100000.0, "jaren": [2023, 2024], "n": 2, "adres": "P.O. box 150, 3700 AD Zeist"}, {"naam": "Koos Holding BV", "totaal": 50000.0, "jaren": [2025], "n": 1, "adres": "Stadsring 99, 3811 HP Amersfoort"}, {"naam": "Ulme B.V", "totaal": 50000.0, "jaren": [2025], "n": 1, "adres": "Oudwijkerlaan 47, 3581 TB Utrecht"}, {"naam": "H.O.C.R. Ruding", "totaal": 22500.0, "jaren": [2023, 2024], "n": 3, "adres": "Den Haag"}, {"naam": "J. Wytema", "totaal": 20000.0, "jaren": [2025], "n": 1, "adres": "Amsterdam"}, {"naam": "E. Venghaus", "totaal": 16250.0, "jaren": [2023, 2024], "n": 5, "adres": "Leidschendam"}, {"naam": "H.B.R. Nauta", "totaal": 10700.0, "jaren": [2024], "n": 1, "adres": "Bolsward"}, {"naam": "W.B. Hoekstra", "totaal": 10550.0, "jaren": [2024], "n": 3, "adres": "Bussum"}, {"naam": "S.J. Meerburg - Van Ingen Schenau", "totaal": 10000.0, "jaren": [2024], "n": 1, "adres": "Havelte"}], "CU": [{"naam": "O. Broos-Bos", "totaal": 85000.0, "jaren": [2024], "n": 1, "adres": "Assen"}, {"naam": "B en S Group B.V.", "totaal": 50000.0, "jaren": [2025], "n": 1, "adres": "Veldstraat 8, 4261 TA Wijk en Aalburg"}, {"naam": "H.T. Dake", "totaal": 39666.0, "jaren": [2023], "n": 2, "adres": "Lochem"}, {"naam": "Jethro B.V.", "totaal": 19000.0, "jaren": [2024, 2025], "n": 2, "adres": "Koraalrood 161, 2718 SB Zoetermeer"}, {"naam": "Lily Holding", "totaal": 12000.0, "jaren": [2024, 2025], "n": 2, "adres": "Wenpad 4, 2685 SJ Poeldijk"}, {"naam": "B en S Groep B.V.", "totaal": 10000.0, "jaren": [2024], "n": 1, "adres": "Veldstraat 8, 4261 TA Wijk en Aalburg"}, {"naam": "J.A.C. Holding", "totaal": 10000.0, "jaren": [2025], "n": 1, "adres": "Goessestraatweg 19, 4421 AD Kapelle"}, {"naam": "W. Tonckens-Heinen", "totaal": 10000.0, "jaren": [2025], "n": 1, "adres": "Rotterdam"}, {"naam": "Marku Holding B.V. ", "totaal": 9000.0, "jaren": [2024], "n": 1, "adres": "Utrechtseweg 174, 3818 ES Amersfoort"}, {"naam": "W.A. van Oord-Jansen", "totaal": 5000.0, "jaren": [2024], "n": 1, "adres": "Rijnsburg"}], "D66": [{"naam": "R. Defares", "totaal": 300000.0, "jaren": [2023, 2024, 2025], "n": 6, "adres": "Den Haag"}, {"naam": "M. Witteveen", "totaal": 202000.0, "jaren": [2023, 2024, 2025], "n": 5, "adres": "Den Haag"}, {"naam": "Persimmons BV", "totaal": 150000.0, "jaren": [2023, 2025], "n": 4, "adres": "Nieuwe Gracht 45, 2011 ND Haarlem"}, {"naam": "J. Loerakker", "totaal": 100000.0, "jaren": [2025], "n": 1, "adres": "Den Haag"}, {"naam": "Stichting The Dreamery Foundation", "totaal": 100000.0, "jaren": [2023], "n": 1, "adres": "Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch"}, {"naam": "The Dreamery Foundation", "totaal": 100000.0, "jaren": [2025], "n": 1, "adres": "Hof van Zevenbergen 1A, 5211 HB Den Bosch"}, {"naam": "S. van der Heijden", "totaal": 100000.0, "jaren": [2023], "n": 1, "adres": "Amsterdam"}, {"naam": "&Samhoud Nederland B.V.", "totaal": 99525.0, "jaren": [2024], "n": 4, "adres": "Maliebaan 55, 3581 CE Utrecht"}, {"naam": "MF van Eck Beheer BV", "totaal": 90000.0, "jaren": [2025], "n": 1, "adres": "Herdersweg 10, 1251 ER Laren"}, {"naam": "J. Baak", "totaal": 65000.0, "jaren": [2023, 2024, 2025], "n": 4, "adres": "Soest"}], "DENK": [{"naam": "S. lmajni (N. lcar)", "totaal": 4900.0, "jaren": [2024], "n": 1, "adres": "Den Haag"}], "FvD": [{"naam": "F. Richartz", "totaal": 100000.0, "jaren": [2023], "n": 2, "adres": "Nijmegen"}, {"naam": "Stichting Dona", "totaal": 100000.0, "jaren": [2025], "n": 1, "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"}, {"naam": "Stichting PjP", "totaal": 100000.0, "jaren": [2025], "n": 1, "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"}, {"naam": "Mega Management B.V.", "totaal": 50000.0, "jaren": [2023], "n": 1, "adres": "Boeing Avenue 250, 1119 PZ Schiphol-Rijk"}, {"naam": "Sensemakers BV", "totaal": 50000.0, "jaren": [2023], "n": 1, "adres": "Achterwerf 305, 1367 DD Almere"}, {"naam": "Chipshol 2000 BV", "totaal": 48400.0, "jaren": [2023], "n": 1, "adres": "Boeingavenue 250, 1119PZ Schiphol-Rijk"}, {"naam": "Lambda Furtherance BV", "totaal": 34000.0, "jaren": [2023, 2024], "n": 3, "adres": "Landgoed De Wittenburg 1, 2244 BV Wassenaar"}, {"naam": "Laurens Meyer Beheer B.V.", "totaal": 20000.0, "jaren": [2025], "n": 2, "adres": "Pottenbakkerstraat 30, 4871 EP Etten-Leur"}, {"naam": "Ozephius Group B.V.", "totaal": 15000.0, "jaren": [2023], "n": 1, "adres": "Simon Stevinstraat 1, 3261 MG Oud-Beijerland"}, {"naam": "Piegretia B.V.", "totaal": 15000.0, "jaren": [2023], "n": 1, "adres": "Oostvoornelaan 26, 2554 BH Den Haag"}], "GL": [{"naam": "K. van Sparrentak", "totaal": 88642.0, "jaren": [2024], "n": 29, "adres": "Rotterdam"}, {"naam": "B. Eickhout", "totaal": 81745.0, "jaren": [2024], "n": 4, "adres": "Utrecht"}, {"naam": "T. Strik", "totaal": 74209.0, "jaren": [2024], "n": 5, "adres": "Dodewaard"}, {"naam": "Stichting The Dreamery Foundation", "totaal": 40000.0, "jaren": [2023, 2025], "n": 2, "adres": "Hof van Zevenbergen 1A,  5211 HB 's Hertogenbosch"}, {"naam": "H.I. Roijackers", "totaal": 20501.0, "jaren": [2024], "n": 13, "adres": "Den Bosch"}, {"naam": "A. Kapteijns", "totaal": 19494.0, "jaren": [2024], "n": 12, "adres": "Den Haag"}, {"naam": "T. Meliani", "totaal": 19494.0, "jaren": [2024], "n": 12, "adres": "Amsterdam"}, {"naam": "H.P. van Essen", "totaal": 19301.0, "jaren": [2024], "n": 12, "adres": "Utrecht"}, {"naam": "M. Dadema", "totaal": 19301.0, "jaren": [2024], "n": 12, "adres": "Heino"}, {"naam": "R.P.M. Kocken", "totaal": 19301.0, "jaren": [2024], "n": 12, "adres": "Amsterdam"}], "JA21": [{"naam": "C.M.G. Thünnessen", "totaal": 100000.0, "jaren": [2025], "n": 1, "adres": "Wassenaar"}, {"naam": "N. Poons", "totaal": 50000.0, "jaren": [2025], "n": 1, "adres": "Monaco"}, {"naam": "Bata Participation Fund B.V.", "totaal": 20000.0, "jaren": [2025], "n": 2, "adres": "Diemermere 1, 1112 TA Diemen"}, {"naam": "VFR Holding BV", "totaal": 10000.0, "jaren": [2025], "n": 1, "adres": "Beethovenweg 5 M, 2202 AE Noordwijk"}, {"naam": "Stichting Wouter Keller", "totaal": 5000.0, "jaren": [2024], "n": 1, "adres": "Waterkers 14, 2925 TJ Krimpen aan den Ijssel"}, {"naam": "E. Bakker-Derks", "totaal": 1000.0, "jaren": [2024], "n": 1, "adres": "Groesbeek"}, {"naam": "M. Steenman", "totaal": 1000.0, "jaren": [2024], "n": 1, "adres": "Amsterdam"}], "PVV": [{"naam": "Piegretia B.V.", "totaal": 15000.0, "jaren": [2023], "n": 1, "adres": "Oostvoornelaan 26 2554 BH Den Haag"}], "PvdA": [{"naam": "M.J. Ligthart", "totaal": 90000.0, "jaren": [2025], "n": 1, "adres": "Amsterdam"}, {"naam": "A.E.M. Mutsaers - p/a notariskantoor Nielsen", "totaal": 68535.0, "jaren": [2023], "n": 1, "adres": "Zuiderpark 22, 9724 AH Groningen"}, {"naam": "Stichting The Dreamery Foundation", "totaal": 40000.0, "jaren": [2023, 2025], "n": 2, "adres": "Hof van Zevenbergen 1A,  5211 HB 's Hertogenbosch"}, {"naam": "J. Bakker", "totaal": 40000.0, "jaren": [2025], "n": 2, "adres": "Bentveld"}, {"naam": "J.C.H. Bakker", "totaal": 25000.0, "jaren": [2023], "n": 1, "adres": "Bentveld"}, {"naam": "P. Albrecht", "totaal": 25000.0, "jaren": [2025], "n": 1, "adres": "Vierhouten"}, {"naam": "A. Plaisier", "totaal": 20000.0, "jaren": [2025], "n": 1, "adres": "Den Haag"}, {"naam": "A.M. Maes", "totaal": 20000.0, "jaren": [2025], "n": 2, "adres": "Capelle aan den IJssel"}, {"naam": "M. Kleijwegt", "totaal": 15000.0, "jaren": [2025], "n": 1, "adres": "Amsterdam"}, {"naam": "H. Luyks", "totaal": 10000.0, "jaren": [2023], "n": 1, "adres": "Soest"}], "PvdD": [{"naam": "G. Kromhout-van Eck", "totaal": 200000.0, "jaren": [2025, 2026], "n": 2, "adres": "Lunteren"}, {"naam": "B.F. van Alste p/a Blankhart & Bronkhorst Notarissen", "totaal": 95000.0, "jaren": [2025], "n": 1, "adres": "Wolterbeeklaan 3, 7361 ZD Beekbergen"}, {"naam": "E. Ouwehand", "totaal": 54065.0, "jaren": [2023, 2024, 2025], "n": 3, "adres": "Den Haag"}, {"naam": "M.A.J. Koolen p/a Knook & Schot Notarissen", "totaal": 43860.0, "jaren": [2025], "n": 1, "adres": "Hoogstraat 15, 4691 CA Tholen"}, {"naam": "J. Luijendijk", "totaal": 43506.0, "jaren": [2023, 2024, 2025], "n": 3, "adres": "Almere"}, {"naam": "C. Teunissen", "totaal": 37533.0, "jaren": [2023, 2024], "n": 4, "adres": "Den Haag"}, {"naam": "I. Kostic", "totaal": 29214.0, "jaren": [2024, 2025], "n": 3, "adres": "Hilversum"}, {"naam": "Kosmo West Twente B.V.", "totaal": 25001.0, "jaren": [2025], "n": 2, "adres": "Twentepoort West 5, 7609 RD Almelo"}, {"naam": "M. Mebius", "totaal": 25000.0, "jaren": [2024], "n": 1, "adres": "Zwijndrecht"}, {"naam": "H.G. Smoes p/a Noaber Notarissen", "totaal": 25000.0, "jaren": [2024], "n": 1, "adres": "Oosteinde 15, 7671 AR Vriezenveen"}], "SGP": [{"naam": "Jan Konijn Beheer/Advies o.g. B.V.", "totaal": 23150.0, "jaren": [2024, 2025], "n": 2, "adres": "Eerste Stationsstraat 85-87, 2712 HD Zoetermeer"}, {"naam": "W.C. van den Brink Holding B.V.", "totaal": 22581.0, "jaren": [2024], "n": 1, "adres": "Essenerweg 40, 3774 CC Kootwijkerbroek"}, {"naam": "AH lnvestment OG B.V.", "totaal": 20000.0, "jaren": [2024], "n": 1, "adres": "Seringenstraat 2, 4043 PK Opheusden"}, {"naam": "De Vries en Verburg Bouw B.V.", "totaal": 20000.0, "jaren": [2024, 2025], "n": 2, "adres": "Postbus 59, 2820 AB Stolwijk"}, {"naam": "Van der Bijl & Heierman B.V.", "totaal": 18375.0, "jaren": [2024], "n": 1, "adres": "Lakemondsestraat 13b, 4043 JC Opheusden"}, {"naam": "Montagebedrijf Hardeman van Harten B.V.", "totaal": 16300.0, "jaren": [2023], "n": 1, "adres": "Lage Veldweg 10, 6741 JL Lunteren"}, {"naam": "Falk Investment B.V.", "totaal": 15000.0, "jaren": [2025], "n": 1, "adres": "Lage Veldweg 5, 6741 JL Lunteren"}, {"naam": "Beringhem B.V.", "totaal": 13229.0, "jaren": [2024], "n": 1, "adres": "Selterskampweg 10, 6721 AT Bennekom"}, {"naam": "Schulp Beheer Breukelen B.V.", "totaal": 12100.0, "jaren": [2025], "n": 1, "adres": "Zandpad 76, 3621 NG Breukelen"}, {"naam": "Jarwi Holding B.V.", "totaal": 10000.0, "jaren": [2025], "n": 1, "adres": "Lage Veldweg 5, 6741 JL Lunteren"}], "SP": [{"naam": "S. Dobbe", "totaal": 112511.0, "jaren": [2024], "n": 12, "adres": "Arnhem"}, {"naam": "J. Dijk", "totaal": 112159.0, "jaren": [2024], "n": 12, "adres": "Groningen"}, {"naam": "S. Beckerman", "totaal": 111185.0, "jaren": [2024], "n": 12, "adres": "Groningen"}, {"naam": "M. van Nispen", "totaal": 103045.0, "jaren": [2024], "n": 12, "adres": "Breda"}, {"naam": "B. van Kent", "totaal": 93486.0, "jaren": [2024], "n": 12, "adres": "Den Haag"}, {"naam": "J. Clemens", "totaal": 70865.0, "jaren": [2024], "n": 12, "adres": "Heerlen"}, {"naam": "A. Vrusch", "totaal": 70476.0, "jaren": [2024], "n": 12, "adres": "Heerlen"}, {"naam": "J. van Dijk", "totaal": 59986.0, "jaren": [2024], "n": 12, "adres": "Utrecht"}, {"naam": "P. Kwint", "totaal": 58710.0, "jaren": [2024], "n": 12, "adres": "Amsterdam"}, {"naam": "N. Temmink", "totaal": 56735.0, "jaren": [2024], "n": 12, "adres": "Zwolle"}], "VVD": [{"naam": "E.A. Nijkerk", "totaal": 300000.0, "jaren": [2023, 2024, 2025], "n": 4, "adres": "Wassenaar"}, {"naam": "SCP Management", "totaal": 100000.0, "jaren": [2023], "n": 1, "adres": "Postbus 340, 5060 AH Oisterwijk"}, {"naam": "KiMi B.V.", "totaal": 100000.0, "jaren": [2023], "n": 1, "adres": "Hoenderstraat 119, 5801 CJ Venray"}, {"naam": "Metterwoon Vastgoed B.V.", "totaal": 100000.0, "jaren": [2025], "n": 1, "adres": "Badhuisweg 108, 2587 CM Den Haag"}, {"naam": "R.M. Moos", "totaal": 100000.0, "jaren": [2023], "n": 1, "adres": "Hoofddorp"}, {"naam": "Lin Bun B.V.", "totaal": 75000.0, "jaren": [2023], "n": 1, "adres": "Watercipresstraat 11, 1326 CM  Almere"}, {"naam": "Van den Tweel Groep", "totaal": 53000.0, "jaren": [2023], "n": 1, "adres": "Frieswijkstraat 70, 3862 BM Nijkerk"}, {"naam": "Godefridus van Hees Fonds", "totaal": 51200.0, "jaren": [2023, 2024], "n": 3, "adres": "Eikenlaan 22, 4356 HE Oostkapelle"}, {"naam": "Verwelius Holding B.V", "totaal": 50000.0, "jaren": [2023], "n": 1, "adres": "Energieweg 2, 1271 ED Huizen"}, {"naam": "M&A Boekhoorn B.V.", "totaal": 50000.0, "jaren": [2023], "n": 1, "adres": "Postbus 126, 3910 AC Rhenen"}], "Volt": [{"naam": "Stichting The Dreamery Foundation", "totaal": 100000.0, "jaren": [2025], "n": 1, "adres": "Hof van Zevenbergen 1A, 5211 HB Den Bosch"}, {"naam": "Stichting Shuksan", "totaal": 65000.0, "jaren": [2023, 2024, 2025], "n": 3, "adres": "Noorderven 61, 1504 AL Zaandam"}, {"naam": "Havenpoort Holding B.V.", "totaal": 50000.0, "jaren": [2024], "n": 1, "adres": "Zuid-Hollandlaan 7, 2596 AL Den Haag"}, {"naam": "Van Goethem Internet Ventures B.V.", "totaal": 35000.0, "jaren": [2023, 2024], "n": 2, "adres": "Amstel 93, 1018 EL Amsterdam"}, {"naam": "M. Dreesman", "totaal": 20000.0, "jaren": [2024], "n": 3, "adres": "Amsterdam"}, {"naam": "R.J. van Geer Beheer B.V.", "totaal": 20000.0, "jaren": [2024], "n": 1, "adres": "Vaagweg 163, 2281 AJ Rijswijk"}, {"naam": "A.D. Mulder", "totaal": 20000.0, "jaren": [2023], "n": 2, "adres": "Schoten (België)"}, {"naam": "Aquaviento B.V.", "totaal": 15323.0, "jaren": [2023], "n": 1, "adres": "Noorderven 61, 1504 AL Zaandam"}, {"naam": "M.M.M. Dreesmann", "totaal": 15000.0, "jaren": [2023], "n": 1, "adres": "Amsterdam"}, {"naam": "H.J. Buitenhuis", "totaal": 15000.0, "jaren": [2025], "n": 1, "adres": "Arnhem"}]}, "all_parties": ["VVD", "D66", "SP", "GL", "PvdD", "CDA", "FvD", "Volt", "PvdA", "SGP", "CU", "JA21", "BVNL", "BBB", "PVV", "DENK"], "years": [2023, 2024, 2025, 2026]};
+
+// Party colors for charts
+const PARTY_COLORS = {
+  VVD:  '#ff6600', D66:  '#00aa78', SP:   '#dc2626', GL:   '#22c55e',
+  PvdD: '#16a34a', CDA:  '#008000', FvD:  '#8b0000', Volt: '#5028b4',
+  PvdA: '#dc6626', SGP:  '#ff8c00', CU:   '#3b82f6', JA21: '#1e3a8a',
+  BVNL: '#78350f', BBB:  '#65a30d', PVV:  '#646464', DENK: '#0ea5e9'
+};
+
+const fmt = n => new Intl.NumberFormat('nl-NL', {style:'currency', currency:'EUR', maximumFractionDigits:0}).format(n);
+const fmtShort = n => {
+  if (n >= 1e6) return (n/1e6).toFixed(1).replace('.0','') + 'M';
+  if (n >= 1e3) return (n/1e3).toFixed(0) + 'K';
+  return n.toString();
+};
+
+// ============================================================
+// SUMMARY CARDS
+// ============================================================
+function renderSummary() {
+  const totalAmount = DATA.top_donors.reduce((s, d) => s + d.totaal, 0);
+  // Approximate from all data
+  let grandTotal = 0;
+  for (const yr of DATA.years) {
+    if (DATA.party_year_totals[yr]) {
+      for (const p of Object.keys(DATA.party_year_totals[yr])) {
+        grandTotal += DATA.party_year_totals[yr][p];
+      }
+    }
+  }
+
+  let totalDonors = 0;
+  for (const yr of DATA.years) {
+    if (DATA.donor_counts[yr]) {
+      for (const p of Object.keys(DATA.donor_counts[yr])) {
+        totalDonors += DATA.donor_counts[yr][p];
+      }
+    }
+  }
+
+  const cards = [
+    { value: fmt(grandTotal), label: 'Totaal geregistreerde giften' },
+    { value: DATA.all_parties.length, label: 'Politieke partijen' },
+    { value: DATA.recurring_donors.length, label: 'Terugkerende donateurs' },
+    { value: DATA.multi_party_donors.length, label: 'Multi-partij donateurs' }
+  ];
+
+  document.getElementById('summaryRow').innerHTML = cards.map(c =>
+    `<div class="stat-card"><div class="value">${c.value}</div><div class="label">${c.label}</div></div>`
+  ).join('');
+}
+
+// ============================================================
+// CHARTS
+// ============================================================
+function renderCharts() {
+  Chart.defaults.color = '#8b8fa3';
+  Chart.defaults.borderColor = '#2e3345';
+  Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
+
+  // Stacked bar: party totals per year
+  const parties = DATA.all_parties;
+  const years = DATA.years;
+
+  const datasets = parties.map(p => ({
+    label: p,
+    data: years.map(y => (DATA.party_year_totals[y] && DATA.party_year_totals[y][p]) || 0),
+    backgroundColor: PARTY_COLORS[p] || '#666',
+    borderRadius: 3
+  }));
+
+  new Chart(document.getElementById('chartPartyYear'), {
+    type: 'bar',
+    data: { labels: years.map(String), datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { boxWidth: 14, padding: 12, font: { size: 11 } }
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => `${ctx.dataset.label}: ${fmt(ctx.raw)}`
+          }
+        }
+      },
+      scales: {
+        x: { stacked: true, grid: { display: false } },
+        y: {
+          stacked: true,
+          ticks: { callback: v => fmtShort(v) },
+          grid: { color: '#2e3345' }
+        }
+      }
+    }
+  });
+
+  // Donor counts
+  const dcDatasets = parties.filter(p => {
+    return years.some(y => DATA.donor_counts[y] && DATA.donor_counts[y][p] > 3);
+  }).map(p => ({
+    label: p,
+    data: years.map(y => (DATA.donor_counts[y] && DATA.donor_counts[y][p]) || 0),
+    backgroundColor: PARTY_COLORS[p] || '#666',
+    borderRadius: 3
+  }));
+
+  new Chart(document.getElementById('chartDonorCount'), {
+    type: 'bar',
+    data: { labels: years.map(String), datasets: dcDatasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 12, padding: 8, font: { size: 10 } } },
+        tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.raw} donateurs` } }
+      },
+      scales: {
+        x: { stacked: true, grid: { display: false } },
+        y: { stacked: true, grid: { color: '#2e3345' } }
+      }
+    }
+  });
+
+  // Horizontal bar: totals
+  const partyTotals = parties.map(p => {
+    let total = 0;
+    years.forEach(y => { total += (DATA.party_year_totals[y] && DATA.party_year_totals[y][p]) || 0; });
+    return { party: p, total };
+  }).sort((a,b) => b.total - a.total);
+
+  new Chart(document.getElementById('chartPartyTotal'), {
+    type: 'bar',
+    data: {
+      labels: partyTotals.map(d => d.party),
+      datasets: [{
+        data: partyTotals.map(d => d.total),
+        backgroundColor: partyTotals.map(d => PARTY_COLORS[d.party] || '#666'),
+        borderRadius: 4
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => fmt(ctx.raw) } }
+      },
+      scales: {
+        x: { ticks: { callback: v => fmtShort(v) }, grid: { color: '#2e3345' } },
+        y: { grid: { display: false } }
+      }
+    }
+  });
+}
+
+// ============================================================
+// TOP DONORS TABLE
+// ============================================================
+function renderTopDonors() {
+  const tbody = document.querySelector('#tableTopDonors tbody');
+  const render = (list) => {
+    tbody.innerHTML = list.map((d, i) =>
+      `<tr>
+        <td style="color:var(--text-dim)">${i + 1}</td>
+        <td>
+          <strong>${d.naam}</strong>
+          ${d.adres ? `<div class="donor-address">${d.adres}</div>` : ''}
+        </td>
+        <td class="amount">${fmt(d.totaal)}</td>
+        <td>${d.partijen.map(p => `<span class="party-badge party-${p}">${p}</span>`).join(' ')}</td>
+        <td>${d.jaren.map(y => `<span class="year-badge">${y}</span>`).join(' ')}</td>
+        <td class="amount">${d.n}</td>
+      </tr>`
+    ).join('');
+  };
+
+  render(DATA.top_donors);
+
+  document.getElementById('searchTopDonors').addEventListener('input', e => {
+    const q = e.target.value.toLowerCase();
+    const filtered = DATA.top_donors.filter(d =>
+      d.naam.toLowerCase().includes(q) ||
+      d.partijen.some(p => p.toLowerCase().includes(q)) ||
+      (d.adres && d.adres.toLowerCase().includes(q))
+    );
+    render(filtered);
+  });
+
+  // Sortable headers
+  let sortCol = null, sortAsc = true;
+  document.querySelectorAll('#tableTopDonors th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.sort;
+      if (sortCol === col) sortAsc = !sortAsc; else { sortCol = col; sortAsc = col === 'naam'; }
+      document.querySelectorAll('#tableTopDonors th').forEach(h => h.classList.remove('sorted-asc','sorted-desc'));
+      th.classList.add(sortAsc ? 'sorted-asc' : 'sorted-desc');
+      const sorted = [...DATA.top_donors].sort((a, b) => {
+        let va, vb;
+        if (col === 'totaal' || col === 'n') { va = a[col]; vb = b[col]; }
+        else if (col === 'naam') { va = a.naam; vb = b.naam; }
+        else if (col === 'partijen') { va = a.partijen.join(','); vb = b.partijen.join(','); }
+        else if (col === 'jaren') { va = a.jaren[0]; vb = b.jaren[0]; }
+        else if (col === 'rank') { va = DATA.top_donors.indexOf(a); vb = DATA.top_donors.indexOf(b); }
+        else { va = 0; vb = 0; }
+        if (typeof va === 'string') return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+        return sortAsc ? va - vb : vb - va;
+      });
+      render(sorted);
+    });
+  });
+}
+
+// ============================================================
+// RECURRING DONORS TABLE
+// ============================================================
+function renderRecurring() {
+  const tbody = document.querySelector('#tableRecurring tbody');
+  tbody.innerHTML = DATA.recurring_donors.map(d =>
+    `<tr>
+      <td><strong>${d.naam}</strong></td>
+      <td class="amount">${fmt(d.totaal)}</td>
+      <td>${d.partijen.map(p => `<span class="party-badge party-${p}">${p}</span>`).join(' ')}</td>
+      <td>${d.jaren.map(y => `<span class="year-badge">${y}</span>`).join(' ')}</td>
+      <td style="font-size:.82rem;color:var(--text-dim)">${d.adres}</td>
+    </tr>`
+  ).join('');
+}
+
+// ============================================================
+// MULTI-PARTY DONORS
+// ============================================================
+function renderMultiParty() {
+  const el = document.getElementById('multiPartyCards');
+  el.innerHTML = DATA.multi_party_donors.map(d => {
+    const maxAmt = Math.max(...Object.values(d.per_party));
+    const bars = d.partijen.map(p => {
+      const amt = d.per_party[p] || 0;
+      const pct = (amt / d.totaal * 100).toFixed(1);
+      return `<div class="bar-seg" style="width:${pct}%;background:${PARTY_COLORS[p]}" title="${p}: ${fmt(amt)}"></div>`;
+    }).join('');
+
+    const details = d.partijen.map(p => {
+      const amt = d.per_party[p] || 0;
+      return `<span class="party-badge party-${p}">${p}: ${fmt(amt)}</span>`;
+    }).join(' ');
+
+    return `<div class="party-card" style="margin-bottom:1rem;cursor:default">
+      <div class="pc-header">
+        <span class="pc-name">${d.naam}</span>
+        <span class="pc-total">${fmt(d.totaal)}</span>
+      </div>
+      <div class="bar-container" style="margin-bottom:.75rem">${bars}</div>
+      <div>${details}</div>
+      <div style="margin-top:.5rem">${d.jaren.map(y => `<span class="year-badge">${y}</span>`).join(' ')}</div>
+    </div>`;
+  }).join('');
+}
+
+// ============================================================
+// NETWORK DIAGRAM (SVG)
+// ============================================================
+function renderNetwork() {
+  const container = document.getElementById('networkContainer');
+  const W = container.clientWidth || 1200;
+  const H = 500;
+
+  const donors = DATA.multi_party_donors;
+  const partySet = new Set();
+  donors.forEach(d => d.partijen.forEach(p => partySet.add(p)));
+  const parties = [...partySet];
+
+  // Layout: parties on left arc, donors on right
+  const partyNodes = parties.map((p, i) => ({
+    id: 'p_' + p, label: p, type: 'party',
+    x: 120, y: 60 + i * (H - 120) / Math.max(parties.length - 1, 1)
+  }));
+
+  const donorNodes = donors.map((d, i) => ({
+    id: 'd_' + i, label: d.naam, type: 'donor', data: d,
+    x: W - 200, y: 60 + i * (H - 120) / Math.max(donors.length - 1, 1)
+  }));
+
+  const links = [];
+  donors.forEach((d, di) => {
+    d.partijen.forEach(p => {
+      const amt = d.per_party[p] || 0;
+      links.push({ source: 'd_' + di, target: 'p_' + p, amount: amt });
+    });
+  });
+
+  const allNodes = [...partyNodes, ...donorNodes];
+  const nodeMap = {};
+  allNodes.forEach(n => nodeMap[n.id] = n);
+
+  const maxLinkAmt = Math.max(...links.map(l => l.amount));
+
+  let svg = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+
+  // Links
+  links.forEach(l => {
+    const s = nodeMap[l.source];
+    const t = nodeMap[l.target];
+    const w = Math.max(1.5, (l.amount / maxLinkAmt) * 12);
+    const party = t.label;
+    const color = PARTY_COLORS[party] || '#666';
+    const cx1 = s.x - 100;
+    const cx2 = t.x + 100;
+    svg += `<path d="M${s.x},${s.y} C${cx1},${s.y} ${cx2},${t.y} ${t.x},${t.y}"
+      stroke="${color}" stroke-width="${w}" fill="none" opacity="0.4">
+      <title>${s.label} → ${t.label}: ${fmt(l.amount)}</title></path>`;
+  });
+
+  // Party nodes
+  partyNodes.forEach(n => {
+    const color = PARTY_COLORS[n.label] || '#666';
+    svg += `<circle cx="${n.x}" cy="${n.y}" r="18" fill="${color}" opacity="0.8"/>`;
+    svg += `<text x="${n.x}" y="${n.y + 4}" text-anchor="middle" fill="white" font-size="10" font-weight="bold">${n.label}</text>`;
+  });
+
+  // Donor nodes
+  donorNodes.forEach(n => {
+    svg += `<circle cx="${n.x}" cy="${n.y}" r="8" fill="#6c8aff" opacity="0.7"/>`;
+    const label = n.label.length > 30 ? n.label.substring(0, 28) + '…' : n.label;
+    svg += `<text x="${n.x + 14}" y="${n.y + 4}" fill="#e4e6ef" font-size="11">${label}</text>`;
+  });
+
+  svg += '</svg>';
+  container.innerHTML = svg;
+}
+
+// ============================================================
+// PARTY DETAIL CARDS
+// ============================================================
+function renderPartyGrid() {
+  const grid = document.getElementById('partyGrid');
+  const years = DATA.years;
+
+  grid.innerHTML = DATA.all_parties.map(party => {
+    const yearAmounts = years.map(y => {
+      const amt = (DATA.party_year_totals[y] && DATA.party_year_totals[y][party]) || 0;
+      return `<div class="pc-year-item">${y}: <span>${fmt(amt)}</span></div>`;
+    }).join('');
+
+    let total = 0;
+    years.forEach(y => total += (DATA.party_year_totals[y] && DATA.party_year_totals[y][party]) || 0);
+
+    return `<div class="party-card" data-party="${party}">
+      <div class="pc-header">
+        <span class="pc-name"><span class="party-badge party-${party}">${party}</span></span>
+        <span class="pc-total">${fmt(total)}</span>
+      </div>
+      <div class="pc-years">${yearAmounts}</div>
+    </div>`;
+  }).join('');
+
+  grid.querySelectorAll('.party-card').forEach(card => {
+    card.addEventListener('click', () => showPartyModal(card.dataset.party));
+  });
+}
+
+function showPartyModal(party) {
+  const donors = DATA.party_top_donors[party] || [];
+  const overlay = document.getElementById('modalOverlay');
+  const modal = document.getElementById('modalContent');
+
+  let total = 0;
+  DATA.years.forEach(y => total += (DATA.party_year_totals[y] && DATA.party_year_totals[y][party]) || 0);
+
+  modal.innerHTML = `
+    <h3>
+      <span class="party-badge party-${party}" style="font-size:1rem;padding:4px 16px">${party}</span>
+      Top 10 donateurs — Totaal: ${fmt(total)}
+      <button class="modal-close" id="modalClose">Sluiten</button>
+    </h3>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr>
+          <th>#</th><th>Naam donateur</th><th class="amount-cell">Totaalbedrag</th><th>Jaren</th><th>Donaties</th><th>Woonplaats</th>
+        </tr></thead>
+        <tbody>
+          ${donors.map((d, i) => `<tr>
+            <td style="color:var(--text-dim)">${i+1}</td>
+            <td><strong>${d.naam}</strong></td>
+            <td class="amount">${fmt(d.totaal)}</td>
+            <td>${d.jaren.map(y => `<span class="year-badge">${y}</span>`).join(' ')}</td>
+            <td style="text-align:center">${d.n}</td>
+            <td style="font-size:.82rem;color:var(--text-dim)">${d.adres}</td>
+          </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+
+  overlay.classList.add('active');
+  document.getElementById('modalClose').addEventListener('click', () => overlay.classList.remove('active'));
+}
+
+// ============================================================
+// TABS
+// ============================================================
+let networkRendered = false;
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    // Re-render network when its tab becomes visible (needs real width)
+    if (btn.dataset.tab === 'multiparty' && !networkRendered) {
+      setTimeout(() => { renderNetwork(); networkRendered = true; }, 50);
+    }
+  });
+});
+
+document.getElementById('modalOverlay').addEventListener('click', e => {
+  if (e.target === e.currentTarget) e.currentTarget.classList.remove('active');
+});
+
+// ============================================================
+// INIT
+// ============================================================
+renderSummary();
+renderCharts();
+renderTopDonors();
+renderRecurring();
+renderMultiParty();
+renderNetwork();
+renderPartyGrid();
+</script>
+</body>
+</html>

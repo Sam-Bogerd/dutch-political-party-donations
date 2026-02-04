@@ -1,0 +1,2389 @@
+{
+  "party_year_totals": {
+    "2023": {
+      "BBB": 60000.0,
+      "BVNL": 140000.0,
+      "CDA": 70000.0,
+      "CU": 39666.0,
+      "D66": 485500.0,
+      "FvD": 360900.0,
+      "GL": 20000.0,
+      "PVV": 15000.0,
+      "PvdA": 123535.0,
+      "PvdD": 47194.0,
+      "SGP": 26300.0,
+      "SP": 43275.0,
+      "VVD": 1627485.0,
+      "Volt": 135323.0
+    },
+    "2024": {
+      "BBB": 44700.0,
+      "BVNL": 30114.0,
+      "CDA": 506964.0,
+      "CU": 133019.0,
+      "D66": 487813.0,
+      "DENK": 4900.0,
+      "FvD": 62500.0,
+      "GL": 1456884.0,
+      "JA21": 7000.0,
+      "PvdA": 96056.0,
+      "PvdD": 309656.0,
+      "SGP": 258566.0,
+      "SP": 1741711.0,
+      "VVD": 327495.0,
+      "Volt": 277928.0
+    },
+    "2025": {
+      "CDA": 142500.0,
+      "CU": 90000.0,
+      "D66": 930000.0,
+      "FvD": 265000.0,
+      "GL": 20000.0,
+      "JA21": 180000.0,
+      "PvdA": 230000.0,
+      "PvdD": 361748.0,
+      "SGP": 102100.0,
+      "VVD": 554000.0,
+      "Volt": 182500.0
+    },
+    "2026": {
+      "D66": 10000.0,
+      "PvdD": 100000.0,
+      "VVD": 50000.0
+    }
+  },
+  "donor_counts": {
+    "2023": {
+      "BBB": 2,
+      "BVNL": 6,
+      "CDA": 3,
+      "CU": 1,
+      "D66": 13,
+      "FvD": 13,
+      "GL": 1,
+      "PVV": 1,
+      "PvdA": 4,
+      "PvdD": 3,
+      "SGP": 2,
+      "SP": 1,
+      "VVD": 35,
+      "Volt": 9
+    },
+    "2024": {
+      "BBB": 6,
+      "BVNL": 7,
+      "CDA": 147,
+      "CU": 14,
+      "D66": 66,
+      "DENK": 1,
+      "FvD": 34,
+      "GL": 113,
+      "JA21": 3,
+      "PvdA": 59,
+      "PvdD": 44,
+      "SGP": 62,
+      "SP": 90,
+      "VVD": 88,
+      "Volt": 77
+    },
+    "2025": {
+      "CDA": 4,
+      "CU": 5,
+      "D66": 24,
+      "FvD": 7,
+      "GL": 1,
+      "JA21": 4,
+      "PvdA": 7,
+      "PvdD": 9,
+      "SGP": 9,
+      "VVD": 15,
+      "Volt": 7
+    },
+    "2026": {
+      "D66": 1,
+      "PvdD": 1,
+      "VVD": 1
+    }
+  },
+  "top_donors": [
+    {
+      "naam": "R. Defares",
+      "totaal": 300000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Den Haag",
+      "n": 6
+    },
+    {
+      "naam": "E.A. Nijkerk",
+      "totaal": 300000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Wassenaar",
+      "n": 4
+    },
+    {
+      "naam": "Stichting The Dreamery Foundation",
+      "totaal": 280000.0,
+      "partijen": [
+        "D66",
+        "GL",
+        "PvdA",
+        "Volt"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch",
+      "n": 6
+    },
+    {
+      "naam": "M. Witteveen",
+      "totaal": 202000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Den Haag",
+      "n": 5
+    },
+    {
+      "naam": "G. Kromhout-van Eck",
+      "totaal": 200000.0,
+      "partijen": [
+        "PvdD"
+      ],
+      "jaren": [
+        2025,
+        2026
+      ],
+      "adres": "Lunteren",
+      "n": 2
+    },
+    {
+      "naam": "Persimmons BV",
+      "totaal": 150000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Nieuwe Gracht 45, 2011 ND Haarlem",
+      "n": 4
+    },
+    {
+      "naam": "Stichting Dona",
+      "totaal": 125000.0,
+      "partijen": [
+        "BVNL",
+        "FvD"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk",
+      "n": 2
+    },
+    {
+      "naam": "S. Dobbe",
+      "totaal": 112511.0,
+      "partijen": [
+        "SP"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Arnhem",
+      "n": 12
+    },
+    {
+      "naam": "Movet Beheer",
+      "totaal": 112500.0,
+      "partijen": [
+        "CDA"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht",
+      "n": 3
+    },
+    {
+      "naam": "J. Dijk",
+      "totaal": 112159.0,
+      "partijen": [
+        "SP"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Groningen",
+      "n": 12
+    },
+    {
+      "naam": "S. Beckerman",
+      "totaal": 111185.0,
+      "partijen": [
+        "SP"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Groningen",
+      "n": 12
+    },
+    {
+      "naam": "M. van Nispen",
+      "totaal": 103045.0,
+      "partijen": [
+        "SP"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Breda",
+      "n": 12
+    },
+    {
+      "naam": "J. Loerakker",
+      "totaal": 100000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Den Haag",
+      "n": 1
+    },
+    {
+      "naam": "SCP Management",
+      "totaal": 100000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2023
+      ],
+      "adres": "Postbus 340, 5060 AH Oisterwijk",
+      "n": 1
+    },
+    {
+      "naam": "R.M. Moos",
+      "totaal": 100000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2023
+      ],
+      "adres": "Hoofddorp",
+      "n": 1
+    },
+    {
+      "naam": "S. van der Heijden",
+      "totaal": 100000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023
+      ],
+      "adres": "Amsterdam",
+      "n": 1
+    },
+    {
+      "naam": "C.M.G. Thünnessen",
+      "totaal": 100000.0,
+      "partijen": [
+        "JA21"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Wassenaar",
+      "n": 1
+    },
+    {
+      "naam": "Keurvorst B.V.",
+      "totaal": 100000.0,
+      "partijen": [
+        "CDA"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "P.O. box 150, 3700 AD Zeist",
+      "n": 2
+    },
+    {
+      "naam": "KiMi B.V.",
+      "totaal": 100000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2023
+      ],
+      "adres": "Hoenderstraat 119, 5801 CJ Venray",
+      "n": 1
+    },
+    {
+      "naam": "Stichting PjP",
+      "totaal": 100000.0,
+      "partijen": [
+        "FvD"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk",
+      "n": 1
+    },
+    {
+      "naam": "Metterwoon Vastgoed B.V.",
+      "totaal": 100000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Badhuisweg 108, 2587 CM Den Haag",
+      "n": 1
+    },
+    {
+      "naam": "The Dreamery Foundation",
+      "totaal": 100000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Hof van Zevenbergen 1A, 5211 HB Den Bosch",
+      "n": 1
+    },
+    {
+      "naam": "F. Richartz",
+      "totaal": 100000.0,
+      "partijen": [
+        "FvD"
+      ],
+      "jaren": [
+        2023
+      ],
+      "adres": "Nijmegen",
+      "n": 2
+    },
+    {
+      "naam": "&Samhoud Nederland B.V.",
+      "totaal": 99525.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Maliebaan 55, 3581 CE Utrecht",
+      "n": 4
+    },
+    {
+      "naam": "B.F. van Alste p/a Blankhart & Bronkhorst Notarissen",
+      "totaal": 95000.0,
+      "partijen": [
+        "PvdD"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Wolterbeeklaan 3, 7361 ZD Beekbergen",
+      "n": 1
+    },
+    {
+      "naam": "B. van Kent",
+      "totaal": 93486.0,
+      "partijen": [
+        "SP"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Den Haag",
+      "n": 12
+    },
+    {
+      "naam": "M.J. Ligthart",
+      "totaal": 90000.0,
+      "partijen": [
+        "PvdA"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Amsterdam",
+      "n": 1
+    },
+    {
+      "naam": "MF van Eck Beheer BV",
+      "totaal": 90000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2025
+      ],
+      "adres": "Herdersweg 10, 1251 ER Laren",
+      "n": 1
+    },
+    {
+      "naam": "K. van Sparrentak",
+      "totaal": 88642.0,
+      "partijen": [
+        "GL"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Rotterdam",
+      "n": 29
+    },
+    {
+      "naam": "O. Broos-Bos",
+      "totaal": 85000.0,
+      "partijen": [
+        "CU"
+      ],
+      "jaren": [
+        2024
+      ],
+      "adres": "Assen",
+      "n": 1
+    }
+  ],
+  "recurring_donors": [
+    {
+      "naam": "E.A. Nijkerk",
+      "totaal": 300000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Wassenaar"
+    },
+    {
+      "naam": "R. Defares",
+      "totaal": 300000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Den Haag"
+    },
+    {
+      "naam": "Stichting The Dreamery Foundation",
+      "totaal": 280000.0,
+      "partijen": [
+        "D66",
+        "GL",
+        "PvdA",
+        "Volt"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch"
+    },
+    {
+      "naam": "M. Witteveen",
+      "totaal": 202000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Den Haag"
+    },
+    {
+      "naam": "G. Kromhout-van Eck",
+      "totaal": 200000.0,
+      "partijen": [
+        "PvdD"
+      ],
+      "jaren": [
+        2025,
+        2026
+      ],
+      "adres": "Lunteren"
+    },
+    {
+      "naam": "Persimmons BV",
+      "totaal": 150000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Nieuwe Gracht 45, 2011 ND Haarlem"
+    },
+    {
+      "naam": "Stichting Dona",
+      "totaal": 125000.0,
+      "partijen": [
+        "BVNL",
+        "FvD"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"
+    },
+    {
+      "naam": "Movet Beheer",
+      "totaal": 112500.0,
+      "partijen": [
+        "CDA"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht"
+    },
+    {
+      "naam": "Keurvorst B.V.",
+      "totaal": 100000.0,
+      "partijen": [
+        "CDA"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "P.O. box 150, 3700 AD Zeist"
+    },
+    {
+      "naam": "Godefridus van Hees Fonds",
+      "totaal": 67200.0,
+      "partijen": [
+        "D66",
+        "VVD"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Eikenlaan 22, 4356 HE Oostkapelle"
+    },
+    {
+      "naam": "J. Baak",
+      "totaal": 65000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Soest"
+    },
+    {
+      "naam": "Stichting Shuksan",
+      "totaal": 65000.0,
+      "partijen": [
+        "Volt"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Noorderven 61, 1504 AL Zaandam"
+    },
+    {
+      "naam": "E. Ouwehand",
+      "totaal": 54065.0,
+      "partijen": [
+        "PvdD"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Den Haag"
+    },
+    {
+      "naam": "P. van der Ploeg",
+      "totaal": 50000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2024,
+        2025,
+        2026
+      ],
+      "adres": "Den Dolder"
+    },
+    {
+      "naam": "J. Luijendijk",
+      "totaal": 43506.0,
+      "partijen": [
+        "PvdD"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Almere"
+    },
+    {
+      "naam": "J. Bakker",
+      "totaal": 41045.0,
+      "partijen": [
+        "CDA",
+        "PvdA"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Huizen"
+    },
+    {
+      "naam": "C. Teunissen",
+      "totaal": 37533.0,
+      "partijen": [
+        "PvdD"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Den Haag"
+    },
+    {
+      "naam": "Van Goethem Internet Ventures B.V.",
+      "totaal": 35000.0,
+      "partijen": [
+        "Volt"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Amstel 93, 1018 EL Amsterdam"
+    },
+    {
+      "naam": "Lambda Furtherance BV",
+      "totaal": 34000.0,
+      "partijen": [
+        "FvD"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Landgoed De Wittenburg 1, 2244 BV Wassenaar"
+    },
+    {
+      "naam": "W. Sijthoff",
+      "totaal": 30000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2024,
+        2025
+      ],
+      "adres": "Amsterdam"
+    },
+    {
+      "naam": "I. Kostic",
+      "totaal": 29214.0,
+      "partijen": [
+        "PvdD"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Hilversum"
+    },
+    {
+      "naam": "Laurens Meyer Beheer B.V.",
+      "totaal": 25000.0,
+      "partijen": [
+        "BVNL",
+        "FvD"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Pottenbakkerstraat 30, 4871 EP Etten-Leur"
+    },
+    {
+      "naam": "Jan Konijn Beheer/Advies o.g. B.V.",
+      "totaal": 23150.0,
+      "partijen": [
+        "SGP"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Eerste Stationsstraat 85-87, 2712 HD Zoetermeer"
+    },
+    {
+      "naam": "Navara Group B.V.",
+      "totaal": 23000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Hoofdstraat 244, 3972 LK Driebergen-Rijsenburg"
+    },
+    {
+      "naam": "H.O.C.R. Ruding",
+      "totaal": 22500.0,
+      "partijen": [
+        "CDA"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Den Haag"
+    },
+    {
+      "naam": "R. de Jong",
+      "totaal": 20500.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Amsterdam"
+    },
+    {
+      "naam": "A. Mulder",
+      "totaal": 20000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "adres": "Schoten (België)"
+    },
+    {
+      "naam": "De Vries en Verburg Bouw B.V.",
+      "totaal": 20000.0,
+      "partijen": [
+        "SGP"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Postbus 59, 2820 AB Stolwijk"
+    },
+    {
+      "naam": "Jethro B.V.",
+      "totaal": 19000.0,
+      "partijen": [
+        "CU"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Koraalrood 161, 2718 SB Zoetermeer"
+    },
+    {
+      "naam": "E. Venghaus",
+      "totaal": 16250.0,
+      "partijen": [
+        "CDA"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Leidschendam"
+    },
+    {
+      "naam": "F. van Beek",
+      "totaal": 16000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Amsterdam"
+    },
+    {
+      "naam": "Wetzels B.V.",
+      "totaal": 13000.0,
+      "partijen": [
+        "VVD"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Coba Pulskensdreef 11, 4904 WB Oosterhout"
+    },
+    {
+      "naam": "Beyuna B.V.",
+      "totaal": 12000.0,
+      "partijen": [
+        "FvD"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Paasheuvelweg 26, 1105 BJ Amsterdam"
+    },
+    {
+      "naam": "Lily Holding",
+      "totaal": 12000.0,
+      "partijen": [
+        "CU"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Wenpad 4, 2685 SJ Poeldijk"
+    },
+    {
+      "naam": "W.R. van Haga",
+      "totaal": 11200.0,
+      "partijen": [
+        "BVNL"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "adres": "Haarlem"
+    },
+    {
+      "naam": "M. Staal",
+      "totaal": 11000.0,
+      "partijen": [
+        "D66",
+        "Volt"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Amsterdam"
+    },
+    {
+      "naam": "R. van Essen",
+      "totaal": 11000.0,
+      "partijen": [
+        "D66"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "adres": "Warmond"
+    }
+  ],
+  "multi_party_donors": [
+    {
+      "naam": "Stichting The Dreamery Foundation",
+      "totaal": 280000.0,
+      "partijen": [
+        "D66",
+        "GL",
+        "PvdA",
+        "Volt"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "per_party": {
+        "D66": 100000.0,
+        "GL": 40000.0,
+        "PvdA": 40000.0,
+        "Volt": 100000.0
+      }
+    },
+    {
+      "naam": "Stichting Dona",
+      "totaal": 125000.0,
+      "partijen": [
+        "BVNL",
+        "FvD"
+      ],
+      "jaren": [
+        2023,
+        2025
+      ],
+      "per_party": {
+        "BVNL": 25000.0,
+        "FvD": 100000.0
+      }
+    },
+    {
+      "naam": "Godefridus van Hees Fonds",
+      "totaal": 67200.0,
+      "partijen": [
+        "D66",
+        "VVD"
+      ],
+      "jaren": [
+        2023,
+        2024
+      ],
+      "per_party": {
+        "D66": 16000.0,
+        "VVD": 51200.0
+      }
+    },
+    {
+      "naam": "J. Bakker",
+      "totaal": 41045.0,
+      "partijen": [
+        "CDA",
+        "PvdA"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "per_party": {
+        "CDA": 1045.0,
+        "PvdA": 40000.0
+      }
+    },
+    {
+      "naam": "Piegretia B.V.",
+      "totaal": 30000.0,
+      "partijen": [
+        "FvD",
+        "PVV"
+      ],
+      "jaren": [
+        2023
+      ],
+      "per_party": {
+        "FvD": 15000.0,
+        "PVV": 15000.0
+      }
+    },
+    {
+      "naam": "Laurens Meyer Beheer B.V.",
+      "totaal": 25000.0,
+      "partijen": [
+        "BVNL",
+        "FvD"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "per_party": {
+        "BVNL": 5000.0,
+        "FvD": 20000.0
+      }
+    },
+    {
+      "naam": "M. Staal",
+      "totaal": 11000.0,
+      "partijen": [
+        "D66",
+        "Volt"
+      ],
+      "jaren": [
+        2024,
+        2025
+      ],
+      "per_party": {
+        "D66": 10000.0,
+        "Volt": 1000.0
+      }
+    }
+  ],
+  "party_top_donors": {
+    "BBB": [
+      {
+        "naam": "Trigona Dairy Trade",
+        "totaal": 50000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Luijnhorststraat 16 a, 6941 RD Didam"
+      },
+      {
+        "naam": "Trigona Dairy Trade B.V.",
+        "totaal": 35000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Luijnhorststraat 16, 6941 RD Didam"
+      },
+      {
+        "naam": "VDE Holding BV",
+        "totaal": 10000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Langewijk 328, 7701 AP Dedemsvaart"
+      },
+      {
+        "naam": "Lost Boys B.V.",
+        "totaal": 5000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Thuil 1, 6365 AC Schinnen"
+      },
+      {
+        "naam": "E.G. Grijssen",
+        "totaal": 1700.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Lettele"
+      },
+      {
+        "naam": "J.C.J. Beemsterboer",
+        "totaal": 1000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Tuitjenhorn"
+      },
+      {
+        "naam": "Loeters de Geer B.V.",
+        "totaal": 1000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Luijnhorststraat 16, 6941 RD Didam"
+      },
+      {
+        "naam": "MFK Holding B.V.",
+        "totaal": 1000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Hoofdstraat 12, 6994 AE De Steeg"
+      }
+    ],
+    "BVNL": [
+      {
+        "naam": "Chipshol 2000 B.V.",
+        "totaal": 50000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Boeingavenue 250 , 1119 PZ Schiphol-Rijk"
+      },
+      {
+        "naam": "Stichting Dona",
+        "totaal": 25000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"
+      },
+      {
+        "naam": "Sjopperdepop BV",
+        "totaal": 25000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Palletweg 32, 2031 DB Haarlem"
+      },
+      {
+        "naam": "Wizard Ventures BV",
+        "totaal": 20000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 2,
+        "adres": "Rondehoep 52 A, 1191 KM Ouderkerk aan de Amstel"
+      },
+      {
+        "naam": "W.R. van Haga",
+        "totaal": 11200.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 2,
+        "adres": "Haarlem"
+      },
+      {
+        "naam": "W. van Haga",
+        "totaal": 11044.0,
+        "jaren": [
+          2024
+        ],
+        "n": 2,
+        "adres": "Haarlem"
+      },
+      {
+        "naam": "Horeca Beheer B.V",
+        "totaal": 10000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Leenderbos 48, 1447 TV Purmerend"
+      },
+      {
+        "naam": "Flofeet Holding B.V.",
+        "totaal": 5000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Reest 36, 5032 EP Tilburg"
+      },
+      {
+        "naam": "Laurens Meyer Beheer B.V.",
+        "totaal": 5000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Pottenbakkerstraat 30, 4871 EP Etten-Leur"
+      },
+      {
+        "naam": "R. Berghuis",
+        "totaal": 5000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Rotterdam"
+      }
+    ],
+    "CDA": [
+      {
+        "naam": "Movet Beheer",
+        "totaal": 112500.0,
+        "jaren": [
+          2024,
+          2025
+        ],
+        "n": 3,
+        "adres": "Rijksstraatweg 87a, 3632 AA Loenen aan de Vecht"
+      },
+      {
+        "naam": "Keurvorst B.V.",
+        "totaal": 100000.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 2,
+        "adres": "P.O. box 150, 3700 AD Zeist"
+      },
+      {
+        "naam": "Koos Holding BV",
+        "totaal": 50000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Stadsring 99, 3811 HP Amersfoort"
+      },
+      {
+        "naam": "Ulme B.V",
+        "totaal": 50000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Oudwijkerlaan 47, 3581 TB Utrecht"
+      },
+      {
+        "naam": "H.O.C.R. Ruding",
+        "totaal": 22500.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 3,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "J. Wytema",
+        "totaal": 20000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "E. Venghaus",
+        "totaal": 16250.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 5,
+        "adres": "Leidschendam"
+      },
+      {
+        "naam": "H.B.R. Nauta",
+        "totaal": 10700.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Bolsward"
+      },
+      {
+        "naam": "W.B. Hoekstra",
+        "totaal": 10550.0,
+        "jaren": [
+          2024
+        ],
+        "n": 3,
+        "adres": "Bussum"
+      },
+      {
+        "naam": "S.J. Meerburg - Van Ingen Schenau",
+        "totaal": 10000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Havelte"
+      }
+    ],
+    "CU": [
+      {
+        "naam": "O. Broos-Bos",
+        "totaal": 85000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Assen"
+      },
+      {
+        "naam": "B en S Group B.V.",
+        "totaal": 50000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Veldstraat 8, 4261 TA Wijk en Aalburg"
+      },
+      {
+        "naam": "H.T. Dake",
+        "totaal": 39666.0,
+        "jaren": [
+          2023
+        ],
+        "n": 2,
+        "adres": "Lochem"
+      },
+      {
+        "naam": "Jethro B.V.",
+        "totaal": 19000.0,
+        "jaren": [
+          2024,
+          2025
+        ],
+        "n": 2,
+        "adres": "Koraalrood 161, 2718 SB Zoetermeer"
+      },
+      {
+        "naam": "Lily Holding",
+        "totaal": 12000.0,
+        "jaren": [
+          2024,
+          2025
+        ],
+        "n": 2,
+        "adres": "Wenpad 4, 2685 SJ Poeldijk"
+      },
+      {
+        "naam": "B en S Groep B.V.",
+        "totaal": 10000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Veldstraat 8, 4261 TA Wijk en Aalburg"
+      },
+      {
+        "naam": "J.A.C. Holding",
+        "totaal": 10000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Goessestraatweg 19, 4421 AD Kapelle"
+      },
+      {
+        "naam": "W. Tonckens-Heinen",
+        "totaal": 10000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Rotterdam"
+      },
+      {
+        "naam": "Marku Holding B.V. ",
+        "totaal": 9000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Utrechtseweg 174, 3818 ES Amersfoort"
+      },
+      {
+        "naam": "W.A. van Oord-Jansen",
+        "totaal": 5000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Rijnsburg"
+      }
+    ],
+    "D66": [
+      {
+        "naam": "R. Defares",
+        "totaal": 300000.0,
+        "jaren": [
+          2023,
+          2024,
+          2025
+        ],
+        "n": 6,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "M. Witteveen",
+        "totaal": 202000.0,
+        "jaren": [
+          2023,
+          2024,
+          2025
+        ],
+        "n": 5,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "Persimmons BV",
+        "totaal": 150000.0,
+        "jaren": [
+          2023,
+          2025
+        ],
+        "n": 4,
+        "adres": "Nieuwe Gracht 45, 2011 ND Haarlem"
+      },
+      {
+        "naam": "J. Loerakker",
+        "totaal": 100000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "Stichting The Dreamery Foundation",
+        "totaal": 100000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Hof van Zevenbergen 1A, 5211 HB 's Hertogenbosch"
+      },
+      {
+        "naam": "The Dreamery Foundation",
+        "totaal": 100000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Hof van Zevenbergen 1A, 5211 HB Den Bosch"
+      },
+      {
+        "naam": "S. van der Heijden",
+        "totaal": 100000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "&Samhoud Nederland B.V.",
+        "totaal": 99525.0,
+        "jaren": [
+          2024
+        ],
+        "n": 4,
+        "adres": "Maliebaan 55, 3581 CE Utrecht"
+      },
+      {
+        "naam": "MF van Eck Beheer BV",
+        "totaal": 90000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Herdersweg 10, 1251 ER Laren"
+      },
+      {
+        "naam": "J. Baak",
+        "totaal": 65000.0,
+        "jaren": [
+          2023,
+          2024,
+          2025
+        ],
+        "n": 4,
+        "adres": "Soest"
+      }
+    ],
+    "DENK": [
+      {
+        "naam": "S. lmajni (N. lcar)",
+        "totaal": 4900.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Den Haag"
+      }
+    ],
+    "FvD": [
+      {
+        "naam": "F. Richartz",
+        "totaal": 100000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 2,
+        "adres": "Nijmegen"
+      },
+      {
+        "naam": "Stichting Dona",
+        "totaal": 100000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"
+      },
+      {
+        "naam": "Stichting PjP",
+        "totaal": 100000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Boeingavenue 250, 1119 PZ Schiphol-Rijk"
+      },
+      {
+        "naam": "Mega Management B.V.",
+        "totaal": 50000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Boeing Avenue 250, 1119 PZ Schiphol-Rijk"
+      },
+      {
+        "naam": "Sensemakers BV",
+        "totaal": 50000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Achterwerf 305, 1367 DD Almere"
+      },
+      {
+        "naam": "Chipshol 2000 BV",
+        "totaal": 48400.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Boeingavenue 250, 1119PZ Schiphol-Rijk"
+      },
+      {
+        "naam": "Lambda Furtherance BV",
+        "totaal": 34000.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 3,
+        "adres": "Landgoed De Wittenburg 1, 2244 BV Wassenaar"
+      },
+      {
+        "naam": "Laurens Meyer Beheer B.V.",
+        "totaal": 20000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 2,
+        "adres": "Pottenbakkerstraat 30, 4871 EP Etten-Leur"
+      },
+      {
+        "naam": "Ozephius Group B.V.",
+        "totaal": 15000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Simon Stevinstraat 1, 3261 MG Oud-Beijerland"
+      },
+      {
+        "naam": "Piegretia B.V.",
+        "totaal": 15000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Oostvoornelaan 26, 2554 BH Den Haag"
+      }
+    ],
+    "GL": [
+      {
+        "naam": "K. van Sparrentak",
+        "totaal": 88642.0,
+        "jaren": [
+          2024
+        ],
+        "n": 29,
+        "adres": "Rotterdam"
+      },
+      {
+        "naam": "B. Eickhout",
+        "totaal": 81745.0,
+        "jaren": [
+          2024
+        ],
+        "n": 4,
+        "adres": "Utrecht"
+      },
+      {
+        "naam": "T. Strik",
+        "totaal": 74209.0,
+        "jaren": [
+          2024
+        ],
+        "n": 5,
+        "adres": "Dodewaard"
+      },
+      {
+        "naam": "Stichting The Dreamery Foundation",
+        "totaal": 40000.0,
+        "jaren": [
+          2023,
+          2025
+        ],
+        "n": 2,
+        "adres": "Hof van Zevenbergen 1A,  5211 HB 's Hertogenbosch"
+      },
+      {
+        "naam": "H.I. Roijackers",
+        "totaal": 20501.0,
+        "jaren": [
+          2024
+        ],
+        "n": 13,
+        "adres": "Den Bosch"
+      },
+      {
+        "naam": "A. Kapteijns",
+        "totaal": 19494.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "T. Meliani",
+        "totaal": 19494.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "H.P. van Essen",
+        "totaal": 19301.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Utrecht"
+      },
+      {
+        "naam": "M. Dadema",
+        "totaal": 19301.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Heino"
+      },
+      {
+        "naam": "R.P.M. Kocken",
+        "totaal": 19301.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Amsterdam"
+      }
+    ],
+    "JA21": [
+      {
+        "naam": "C.M.G. Thünnessen",
+        "totaal": 100000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Wassenaar"
+      },
+      {
+        "naam": "N. Poons",
+        "totaal": 50000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Monaco"
+      },
+      {
+        "naam": "Bata Participation Fund B.V.",
+        "totaal": 20000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 2,
+        "adres": "Diemermere 1, 1112 TA Diemen"
+      },
+      {
+        "naam": "VFR Holding BV",
+        "totaal": 10000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Beethovenweg 5 M, 2202 AE Noordwijk"
+      },
+      {
+        "naam": "Stichting Wouter Keller",
+        "totaal": 5000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Waterkers 14, 2925 TJ Krimpen aan den Ijssel"
+      },
+      {
+        "naam": "E. Bakker-Derks",
+        "totaal": 1000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Groesbeek"
+      },
+      {
+        "naam": "M. Steenman",
+        "totaal": 1000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Amsterdam"
+      }
+    ],
+    "PVV": [
+      {
+        "naam": "Piegretia B.V.",
+        "totaal": 15000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Oostvoornelaan 26 2554 BH Den Haag"
+      }
+    ],
+    "PvdA": [
+      {
+        "naam": "M.J. Ligthart",
+        "totaal": 90000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "A.E.M. Mutsaers - p/a notariskantoor Nielsen",
+        "totaal": 68535.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Zuiderpark 22, 9724 AH Groningen"
+      },
+      {
+        "naam": "Stichting The Dreamery Foundation",
+        "totaal": 40000.0,
+        "jaren": [
+          2023,
+          2025
+        ],
+        "n": 2,
+        "adres": "Hof van Zevenbergen 1A,  5211 HB 's Hertogenbosch"
+      },
+      {
+        "naam": "J. Bakker",
+        "totaal": 40000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 2,
+        "adres": "Bentveld"
+      },
+      {
+        "naam": "J.C.H. Bakker",
+        "totaal": 25000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Bentveld"
+      },
+      {
+        "naam": "P. Albrecht",
+        "totaal": 25000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Vierhouten"
+      },
+      {
+        "naam": "A. Plaisier",
+        "totaal": 20000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "A.M. Maes",
+        "totaal": 20000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 2,
+        "adres": "Capelle aan den IJssel"
+      },
+      {
+        "naam": "M. Kleijwegt",
+        "totaal": 15000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "H. Luyks",
+        "totaal": 10000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Soest"
+      }
+    ],
+    "PvdD": [
+      {
+        "naam": "G. Kromhout-van Eck",
+        "totaal": 200000.0,
+        "jaren": [
+          2025,
+          2026
+        ],
+        "n": 2,
+        "adres": "Lunteren"
+      },
+      {
+        "naam": "B.F. van Alste p/a Blankhart & Bronkhorst Notarissen",
+        "totaal": 95000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Wolterbeeklaan 3, 7361 ZD Beekbergen"
+      },
+      {
+        "naam": "E. Ouwehand",
+        "totaal": 54065.0,
+        "jaren": [
+          2023,
+          2024,
+          2025
+        ],
+        "n": 3,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "M.A.J. Koolen p/a Knook & Schot Notarissen",
+        "totaal": 43860.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Hoogstraat 15, 4691 CA Tholen"
+      },
+      {
+        "naam": "J. Luijendijk",
+        "totaal": 43506.0,
+        "jaren": [
+          2023,
+          2024,
+          2025
+        ],
+        "n": 3,
+        "adres": "Almere"
+      },
+      {
+        "naam": "C. Teunissen",
+        "totaal": 37533.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 4,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "I. Kostic",
+        "totaal": 29214.0,
+        "jaren": [
+          2024,
+          2025
+        ],
+        "n": 3,
+        "adres": "Hilversum"
+      },
+      {
+        "naam": "Kosmo West Twente B.V.",
+        "totaal": 25001.0,
+        "jaren": [
+          2025
+        ],
+        "n": 2,
+        "adres": "Twentepoort West 5, 7609 RD Almelo"
+      },
+      {
+        "naam": "M. Mebius",
+        "totaal": 25000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Zwijndrecht"
+      },
+      {
+        "naam": "H.G. Smoes p/a Noaber Notarissen",
+        "totaal": 25000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Oosteinde 15, 7671 AR Vriezenveen"
+      }
+    ],
+    "SGP": [
+      {
+        "naam": "Jan Konijn Beheer/Advies o.g. B.V.",
+        "totaal": 23150.0,
+        "jaren": [
+          2024,
+          2025
+        ],
+        "n": 2,
+        "adres": "Eerste Stationsstraat 85-87, 2712 HD Zoetermeer"
+      },
+      {
+        "naam": "W.C. van den Brink Holding B.V.",
+        "totaal": 22581.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Essenerweg 40, 3774 CC Kootwijkerbroek"
+      },
+      {
+        "naam": "AH lnvestment OG B.V.",
+        "totaal": 20000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Seringenstraat 2, 4043 PK Opheusden"
+      },
+      {
+        "naam": "De Vries en Verburg Bouw B.V.",
+        "totaal": 20000.0,
+        "jaren": [
+          2024,
+          2025
+        ],
+        "n": 2,
+        "adres": "Postbus 59, 2820 AB Stolwijk"
+      },
+      {
+        "naam": "Van der Bijl & Heierman B.V.",
+        "totaal": 18375.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Lakemondsestraat 13b, 4043 JC Opheusden"
+      },
+      {
+        "naam": "Montagebedrijf Hardeman van Harten B.V.",
+        "totaal": 16300.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Lage Veldweg 10, 6741 JL Lunteren"
+      },
+      {
+        "naam": "Falk Investment B.V.",
+        "totaal": 15000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Lage Veldweg 5, 6741 JL Lunteren"
+      },
+      {
+        "naam": "Beringhem B.V.",
+        "totaal": 13229.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Selterskampweg 10, 6721 AT Bennekom"
+      },
+      {
+        "naam": "Schulp Beheer Breukelen B.V.",
+        "totaal": 12100.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Zandpad 76, 3621 NG Breukelen"
+      },
+      {
+        "naam": "Jarwi Holding B.V.",
+        "totaal": 10000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Lage Veldweg 5, 6741 JL Lunteren"
+      }
+    ],
+    "SP": [
+      {
+        "naam": "S. Dobbe",
+        "totaal": 112511.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Arnhem"
+      },
+      {
+        "naam": "J. Dijk",
+        "totaal": 112159.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Groningen"
+      },
+      {
+        "naam": "S. Beckerman",
+        "totaal": 111185.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Groningen"
+      },
+      {
+        "naam": "M. van Nispen",
+        "totaal": 103045.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Breda"
+      },
+      {
+        "naam": "B. van Kent",
+        "totaal": 93486.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Den Haag"
+      },
+      {
+        "naam": "J. Clemens",
+        "totaal": 70865.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Heerlen"
+      },
+      {
+        "naam": "A. Vrusch",
+        "totaal": 70476.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Heerlen"
+      },
+      {
+        "naam": "J. van Dijk",
+        "totaal": 59986.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Utrecht"
+      },
+      {
+        "naam": "P. Kwint",
+        "totaal": 58710.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "N. Temmink",
+        "totaal": 56735.0,
+        "jaren": [
+          2024
+        ],
+        "n": 12,
+        "adres": "Zwolle"
+      }
+    ],
+    "VVD": [
+      {
+        "naam": "E.A. Nijkerk",
+        "totaal": 300000.0,
+        "jaren": [
+          2023,
+          2024,
+          2025
+        ],
+        "n": 4,
+        "adres": "Wassenaar"
+      },
+      {
+        "naam": "SCP Management",
+        "totaal": 100000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Postbus 340, 5060 AH Oisterwijk"
+      },
+      {
+        "naam": "KiMi B.V.",
+        "totaal": 100000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Hoenderstraat 119, 5801 CJ Venray"
+      },
+      {
+        "naam": "Metterwoon Vastgoed B.V.",
+        "totaal": 100000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Badhuisweg 108, 2587 CM Den Haag"
+      },
+      {
+        "naam": "R.M. Moos",
+        "totaal": 100000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Hoofddorp"
+      },
+      {
+        "naam": "Lin Bun B.V.",
+        "totaal": 75000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Watercipresstraat 11, 1326 CM  Almere"
+      },
+      {
+        "naam": "Van den Tweel Groep",
+        "totaal": 53000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Frieswijkstraat 70, 3862 BM Nijkerk"
+      },
+      {
+        "naam": "Godefridus van Hees Fonds",
+        "totaal": 51200.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 3,
+        "adres": "Eikenlaan 22, 4356 HE Oostkapelle"
+      },
+      {
+        "naam": "Verwelius Holding B.V",
+        "totaal": 50000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Energieweg 2, 1271 ED Huizen"
+      },
+      {
+        "naam": "M&A Boekhoorn B.V.",
+        "totaal": 50000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Postbus 126, 3910 AC Rhenen"
+      }
+    ],
+    "Volt": [
+      {
+        "naam": "Stichting The Dreamery Foundation",
+        "totaal": 100000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Hof van Zevenbergen 1A, 5211 HB Den Bosch"
+      },
+      {
+        "naam": "Stichting Shuksan",
+        "totaal": 65000.0,
+        "jaren": [
+          2023,
+          2024,
+          2025
+        ],
+        "n": 3,
+        "adres": "Noorderven 61, 1504 AL Zaandam"
+      },
+      {
+        "naam": "Havenpoort Holding B.V.",
+        "totaal": 50000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Zuid-Hollandlaan 7, 2596 AL Den Haag"
+      },
+      {
+        "naam": "Van Goethem Internet Ventures B.V.",
+        "totaal": 35000.0,
+        "jaren": [
+          2023,
+          2024
+        ],
+        "n": 2,
+        "adres": "Amstel 93, 1018 EL Amsterdam"
+      },
+      {
+        "naam": "M. Dreesman",
+        "totaal": 20000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 3,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "R.J. van Geer Beheer B.V.",
+        "totaal": 20000.0,
+        "jaren": [
+          2024
+        ],
+        "n": 1,
+        "adres": "Vaagweg 163, 2281 AJ Rijswijk"
+      },
+      {
+        "naam": "A.D. Mulder",
+        "totaal": 20000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 2,
+        "adres": "Schoten (België)"
+      },
+      {
+        "naam": "Aquaviento B.V.",
+        "totaal": 15323.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Noorderven 61, 1504 AL Zaandam"
+      },
+      {
+        "naam": "M.M.M. Dreesmann",
+        "totaal": 15000.0,
+        "jaren": [
+          2023
+        ],
+        "n": 1,
+        "adres": "Amsterdam"
+      },
+      {
+        "naam": "H.J. Buitenhuis",
+        "totaal": 15000.0,
+        "jaren": [
+          2025
+        ],
+        "n": 1,
+        "adres": "Arnhem"
+      }
+    ]
+  },
+  "all_parties": [
+    "VVD",
+    "D66",
+    "SP",
+    "GL",
+    "PvdD",
+    "CDA",
+    "FvD",
+    "Volt",
+    "PvdA",
+    "SGP",
+    "CU",
+    "JA21",
+    "BVNL",
+    "BBB",
+    "PVV",
+    "DENK"
+  ],
+  "years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}
